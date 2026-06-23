@@ -44,6 +44,7 @@ https://xeriasoft.com/video-tutorials.html
 ## Documentation
 
 - [Installation Guide](docs/INSTALLATION.md)
+- [FAQ](docs/FAQ.md)
 - [Security Policy](SECURITY.md)
 - [Support](SUPPORT.md)
 - [Changelog](CHANGELOG.md)
