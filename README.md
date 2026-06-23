@@ -84,9 +84,15 @@ If Microsoft Defender, Microsoft SmartScreen, or another security product incorr
 
 [support@xeriasoft.com](mailto:support@xeriasoft.com)
 
-## Publisher
+## Publisher and Brand
 
-XERIA is developed and published by **Turgay Kulgu**.
+XERIA is the official product brand for this Windows desktop application.
+
+Official website:
+
+https://xeriasoft.com
+
+The Windows installer is digitally signed.
 
 ## License
 
