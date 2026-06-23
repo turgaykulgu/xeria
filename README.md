@@ -1,6 +1,6 @@
 # XERIA
 
-**XERIA** is a commercial Windows desktop application for secure PDF watermarking, personalized batch PDF generation, PDF encryption, trace-code watermarking, optional QR traceability, and controlled document distribution.
+**XERIA** is a commercial Windows desktop application for PDF security, secure PDF watermarking, personalized batch PDF generation, PDF encryption, trace-code watermarking, optional QR traceability, and controlled document distribution.
 
 It is designed for users, trainers, teams, and organizations that need to distribute PDF documents securely while keeping each copy traceable to its intended recipient.
 
