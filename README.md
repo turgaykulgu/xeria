@@ -39,7 +39,14 @@ https://xeriasoft.com/dl
 
 ## Video Tutorials
 
+Official XERIA video tutorials are available here:
+
 https://xeriasoft.com/video-tutorials.html
+
+Official YouTube channel:
+
+https://www.youtube.com/@xeriasoft
+
 
 ## Documentation
 
