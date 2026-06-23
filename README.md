@@ -41,6 +41,14 @@ https://xeriasoft.com/dl
 
 https://xeriasoft.com/video-tutorials.html
 
+## Documentation
+
+- [Installation Guide](docs/INSTALLATION.md)
+- [Security Policy](SECURITY.md)
+- [Support](SUPPORT.md)
+- [Changelog](CHANGELOG.md)
+- [License Notice](LICENSE.md)
+
 ## Publisher
 
 XERIA is developed and published by **Turgay Kulgu**.
