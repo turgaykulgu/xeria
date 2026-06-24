@@ -2,6 +2,10 @@
 
 Secure PDF distribution with watermarking, source identification, password protection, email delivery, and traceability.
 
+XERIA is a Windows desktop application designed for organizations that need to distribute confidential PDF documents securely while maintaining traceability and delivery control.
+
+It combines PDF watermarking, source identification, PDF encryption, personalized document generation, email delivery, and audit logging in a single workflow.
+
 ## Key Features
 
 * Secure PDF watermarking
@@ -66,43 +70,51 @@ https://github.com/turgaykulgu/xeria/releases/latest
 * [Changelog](CHANGELOG.md)
 * [License Notice](LICENSE.md)
 
+## Free Trial
+
+XERIA includes an unlimited free trial.
+
+Users can evaluate PDF watermarking, source identification, document protection, and core document workflow features before purchasing a license.
+
+Some advanced functionality may require a valid license.
+
 ## Security and Trust
 
-The official XERIA Windows installer is digitally signed.
+The official XERIA installer is digitally signed.
 
-The official installer should only be downloaded from the official XERIA website:
+For security reasons, XERIA should only be downloaded from the official download page:
 
 https://xeriasoft.com/dl
 
 XERIA does not include bundled adware, browser extensions, cryptocurrency miners, unwanted background payloads, or third-party installers.
 
-If Microsoft Defender, Microsoft SmartScreen, or another security product incorrectly flags the official XERIA installer, please report the issue to:
+If Microsoft Defender, Microsoft SmartScreen, or another security product incorrectly flags the official installer, please report the issue to:
 
 [support@xeriasoft.com](mailto:support@xeriasoft.com)
 
 ## Publisher and Brand
 
-XERIA is the official product brand for this Windows desktop application.
+XERIA is the official product brand of this software.
 
 Official website:
 
 https://xeriasoft.com
 
-The Windows installer is digitally signed.
+The XERIA installer is digitally signed.
 
 ## License
 
 XERIA is commercial closed-source software.
 
-This repository is used for public product information, documentation, release notes, security notices, installation guidance, and support references.
+This repository is provided for public product information, documentation, release notes, security notices, installation guidance, and support references.
 
-This repository does **not** contain the XERIA application source code.
+This repository does not contain the XERIA application source code.
 
-The XERIA application, installer, binaries, user interface, product design, documentation, branding, logos, and related materials are protected by applicable copyright, trademark, and software licensing laws.
+The XERIA application, installer, binaries, documentation, branding, logos, and related materials are protected by applicable copyright, trademark, and software licensing laws.
 
 ## Support
 
-For support, product information, licensing questions, installation issues, download issues, or false-positive security reports, please contact:
+For support, licensing questions, installation issues, download issues, or false-positive security reports, please contact:
 
 [support@xeriasoft.com](mailto:support@xeriasoft.com)
 
@@ -114,6 +126,6 @@ https://xeriasoft.com
 
 Do not download XERIA from unofficial mirrors, repackaged installers, third-party file-sharing websites, or unknown sources.
 
-For the safest installation experience, always use the official download page:
+Always use the official download page:
 
 https://xeriasoft.com/dl
