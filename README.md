@@ -6,6 +6,18 @@ XERIA is a Windows desktop application designed for organizations that need to d
 
 It combines PDF watermarking, source identification, PDF encryption, personalized document generation, email delivery, and audit logging in a single workflow.
 
+## Current Version
+
+XERIA 1.8.3
+
+Released: June 24, 2026
+
+## Latest Update
+
+XERIA 1.8.3 introduces light and dark theme support, improves user interface consistency across the application, and fixes several visual and usability issues.
+
+This update also improves recipient list handling, theme switching behavior, button visibility, hover feedback, and readability in light theme.
+
 ## Key Features
 
 * Secure PDF watermarking
@@ -18,6 +30,7 @@ It combines PDF watermarking, source identification, PDF encryption, personalize
 * Batch email sending with personalized attachments
 * Cloud-connected document workflows
 * Mail log and delivery tracking support
+* Light and dark theme support
 * Multi-language user interface
 * Windows desktop application
 
