@@ -89,7 +89,9 @@ XERIA includes an unlimited free trial.
 
 Users can evaluate PDF watermarking, source identification, document protection, and core document workflow features before purchasing a license.
 
-Some advanced functionality may require a valid license.
+The trial version has some limitations. Email sending is disabled in trial mode, and generated PDF files include a trial banner.
+
+A valid license is required to remove trial banners and enable licensed functionality.
 
 ## Security and Trust
 
