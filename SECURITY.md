@@ -1,10 +1,10 @@
 # Security Policy
 
-## Official Downloads
+## Official Download
 
-The official XERIA installer should only be downloaded from the official XERIA website:
+The official XERIA Windows installer is available here:
 
-https://xeriasoft.com/dl
+https://xeriasoft.com/downloads/XERIA-setup.exe
 
 Do not download XERIA from unofficial mirrors, third-party file-sharing websites, or repackaged installer sources.
 
