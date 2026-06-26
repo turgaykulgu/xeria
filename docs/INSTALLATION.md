@@ -34,7 +34,7 @@ Before running the installer, please verify:
 
 1. Visit the official XERIA download page:
 
-   https://xeriasoft.com/dl
+   https://xeriasoft.com/downloads/XERIA-setup.exe
 
 2. Download the latest XERIA installer.
 
