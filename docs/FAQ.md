@@ -80,7 +80,7 @@ Microsoft Defender, Microsoft SmartScreen, or another security product may somet
 
 If you receive a warning while downloading or installing XERIA, please verify that:
 
-* The installer was downloaded only from https://xeriasoft.com/dl
+* The installer was downloaded only from https://xeriasoft.com/downloads/XERIA-setup.exe
 * The installer is digitally signed
 * The Windows publisher information matches the official publisher identity
 * The file was not downloaded from an unofficial mirror or third-party website
