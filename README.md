@@ -101,7 +101,7 @@ The official XERIA installer is digitally signed.
 
 For security reasons, XERIA should only be downloaded from the official download page:
 
-https://xeriasoft.com/dl
+https://xeriasoft.com/downloads/XERIA-setup.exe
 
 XERIA does not include bundled adware, browser extensions, cryptocurrency miners, unwanted background payloads, or third-party installers.
 
@@ -145,4 +145,4 @@ Do not download XERIA from unofficial mirrors, repackaged installers, third-part
 
 Always use the official download page:
 
-https://xeriasoft.com/dl
+https://xeriasoft.com/downloads/XERIA-setup.exe
