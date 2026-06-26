@@ -65,7 +65,7 @@ Released: June 24, 2026
 
 The official XERIA installer should only be downloaded from:
 
-https://xeriasoft.com/dl
+[https://xeriasoft.com/dl](https://xeriasoft.com/downloads/XERIA-setup.exe)
 
 ## Notes
 
