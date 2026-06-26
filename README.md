@@ -56,7 +56,9 @@ https://xeriasoft.com
 
 ### Official Download
 
-https://xeriasoft.com/dl
+The official XERIA Windows installer is available here:
+
+https://xeriasoft.com/downloads/XERIA-setup.exe
 
 ### Pricing
 
