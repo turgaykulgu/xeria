@@ -8,9 +8,9 @@ For product support, licensing questions, installation issues, download issues, 
 
 https://xeriasoft.com
 
-## Download
+## Official Download
 
-https://xeriasoft.com/dl
+https://xeriasoft.com/downloads/XERIA-setup.exe
 
 ## Video Tutorials
 
