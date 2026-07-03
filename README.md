@@ -1,3 +1,7 @@
+<p align="center">
+  <img src="docs/xeria-banner-en.png" alt="XERIA - Secure PDF Watermarking" width="1000">
+</p>
+
 # XERIA
 
 Secure PDF distribution with watermarking, source identification, password protection, email delivery, and traceability.
