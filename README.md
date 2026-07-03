@@ -45,6 +45,24 @@ This update also improves recipient list handling, theme switching behavior, but
 * Multi-language user interface
 * Windows desktop application
 
+## Screenshots
+
+### Secure PDF Watermarking
+
+![XERIA Secure PDF Watermarking](docs/xeria-pdf-watermark.png)
+
+### Personalized Batch PDF Generation
+
+![XERIA Personalized Batch PDF Generation](docs/xeria-personalized-batch.png)
+
+### Email Delivery and Mail Log
+
+![XERIA Email Delivery and Mail Log](docs/xeria-email-delivery.png)
+
+### Cloud-Connected Workflows
+
+![XERIA Cloud Access](docs/xeria-cloud-access.png)
+
 ## Typical Use Cases
 
 XERIA can be used for:
