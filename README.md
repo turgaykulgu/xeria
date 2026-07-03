@@ -61,7 +61,7 @@ This update also improves recipient list handling, theme switching behavior, but
 
 ### Cloud-Connected Workflows
 
-![XERIA Cloud Access](docs/xeria-cloud-access.png)
+![XERIA Cloud Access](docs/xeria-mainpage.png)
 
 ## Typical Use Cases
 
