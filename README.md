@@ -6,6 +6,13 @@
 
 Secure PDF distribution with watermarking, source identification, password protection, email delivery, and traceability.
 
+<p align="center">
+  <a href="https://xeriasoft.com">Official Website</a> •
+  <a href="https://xeriasoft.com/downloads/XERIA-setup.exe">Download XERIA</a> •
+  <a href="https://xeriasoft.com/pricing">Pricing</a> •
+  <a href="https://xeriasoft.com/video-tutorials">Video Tutorials</a>
+</p>
+
 XERIA is a Windows desktop application designed for organizations that need to distribute confidential PDF documents securely while maintaining traceability and delivery control.
 
 It combines PDF watermarking, source identification, PDF encryption, personalized document generation, email delivery, and audit logging in a single workflow.
