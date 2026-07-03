@@ -47,6 +47,10 @@ This update also improves recipient list handling, theme switching behavior, but
 
 ## Screenshots
 
+### Xeria Main Screen
+
+![XERIA Main Screen](docs/xeria-mainpage.png)
+
 ### Secure PDF Watermarking
 
 ![XERIA Secure PDF Watermarking](docs/xeria-pdf-watermark.png)
@@ -58,10 +62,6 @@ This update also improves recipient list handling, theme switching behavior, but
 ### Email Delivery and Mail Log
 
 ![XERIA Email Delivery and Mail Log](docs/xeria-email-delivery.png)
-
-### Cloud-Connected Workflows
-
-![XERIA Cloud Access](docs/xeria-mainpage.png)
 
 ## Typical Use Cases
 
