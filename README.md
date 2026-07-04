@@ -47,21 +47,30 @@ This update also improves recipient list handling, theme switching behavior, but
 
 ## Screenshots
 
-### Xeria Main Screen
+### XERIA Main Screen
 
-![XERIA Main Screen](docs/xeria-mainpage.png)
+<p align="center">
+  <img src="docs/xeria-mainpage.png" alt="XERIA Main Screen" width="900">
+</p>
 
 ### Secure PDF Watermarking
 
-![XERIA Secure PDF Watermarking](docs/xeria-pdf-watermark.png)
+<p align="center">
+  <img src="docs/xeria-pdf-watermark.png" alt="XERIA Secure PDF Watermarking" width="900">
+</p>
 
 ### Personalized Batch PDF Generation
 
-![XERIA Personalized Batch PDF Generation](docs/xeria-personalized-batch.png)
+<p align="center">
+  <img src="docs/xeria-personalized-batch.png" alt="XERIA Personalized Batch PDF Generation" width="900">
+</p>
 
 ### Email Delivery and Mail Log
 
-![XERIA Email Delivery and Mail Log](docs/xeria-email-delivery.png)
+<p align="center">
+  <img src="docs/xeria-email-delivery.png" alt="XERIA Email Delivery and Mail Log" width="900">
+</p>
+
 
 ## Typical Use Cases
 
