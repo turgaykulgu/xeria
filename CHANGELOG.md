@@ -2,11 +2,53 @@
 
 This changelog summarizes notable public updates for XERIA.
 
-XERIA is a commercial Windows desktop application for secure PDF watermarking, personalized batch PDF generation, PDF encryption, trace-code watermarking, optional QR traceability, and controlled document distribution.
+XERIA is a commercial Windows desktop application for secure PDF watermarking, personalized batch PDF generation, PDF encryption, trace-code watermarking, optional QR traceability, email delivery, cloud-connected workflows, and controlled document distribution.
 
-## XERIA 1.8.3
+## XERIA 1.8.6 — Microsoft Store Release
+
+Released: July 2026
+
+### Availability
+
+* Available through Microsoft Store.
+* Recommended installation method for most Windows users.
+
+Microsoft Store:
+
+https://apps.microsoft.com/detail/9P37ZD7SQNZP
+
+### Added
+
+* Added initial Microsoft Store distribution support.
+* Added Microsoft Store installation support.
+* Added Store-aware update behavior.
+
+### Improved
+
+* Improved installation experience for Microsoft Store users.
+* Store-installed versions now rely on Microsoft Store-managed updates.
+* Direct web installer updates are separated from Microsoft Store update behavior.
+* Improved distribution clarity between Microsoft Store and standalone installer channels.
+
+### Notes
+
+* XERIA 1.8.6 is currently available through Microsoft Store.
+* The direct standalone installer currently remains on version 1.8.3 while Microsoft SmartScreen reputation is being established.
+* The Microsoft Store version is the recommended installation method.
+* The direct installer remains available as an alternative installation method from the official XERIA website.
+
+## XERIA 1.8.3 — Direct Installer Stable Release
 
 Released: June 24, 2026
+
+### Availability
+
+* Available as the standalone direct Windows installer from the official XERIA website.
+* Alternative installation method for users who prefer a traditional installer package.
+
+Direct installer:
+
+https://xeriasoft.com/downloads/XERIA-setup.exe
 
 ### Added
 
@@ -30,18 +72,27 @@ Released: June 24, 2026
 * Fixed minor user interface issues affecting readability and interaction feedback.
 * Fixed general stability and usability issues reported during testing.
 
+## Current Distribution Channels
+
+| Channel | Current Version | Status |
+|---|---:|---|
+| Microsoft Store | 1.8.6 | Recommended |
+| Direct Installer | 1.8.3 | Alternative stable installer |
+
 ## Current Development Focus
 
-* Windows installer signing and distribution improvements
-* Microsoft Defender and SmartScreen reputation review
-* Microsoft Store publication preparation
+* Microsoft Store distribution refinement
+* Direct installer SmartScreen reputation review
+* Microsoft Defender false-positive review and monitoring
 * User interface improvements
 * Light and dark theme refinements
 * Video tutorial expansion
 * Website and documentation improvements
+* Public release communication improvements
 
 ## Recent Highlights
 
+* Added Microsoft Store availability
 * Added digitally signed Windows installer support
 * Added light and dark theme support
 * Added guided workflow wizard for main PDF workflows
@@ -58,12 +109,16 @@ Released: June 24, 2026
 * Added public GitHub product page
 * Added commercial closed-source license notice
 * Added security policy
-* Added official website and download references
+* Added official website, Microsoft Store, and direct installer references
 * Added support and false-positive reporting guidance
 
-## Official Download
+## Official Downloads
 
-The official XERIA Windows installer is available here:
+### Recommended: Microsoft Store
+
+https://apps.microsoft.com/detail/9P37ZD7SQNZP
+
+### Alternative: Direct Installer
 
 https://xeriasoft.com/downloads/XERIA-setup.exe
 
@@ -71,4 +126,4 @@ https://xeriasoft.com/downloads/XERIA-setup.exe
 
 This repository does not contain the XERIA application source code.
 
-It is used for public product information, documentation, release notes, security notices, and support references.
+It is used for public product information, documentation, release notes, security notices, installation guidance, and support references.
