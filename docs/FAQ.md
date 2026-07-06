@@ -2,7 +2,7 @@
 
 ## What is XERIA?
 
-XERIA is a Windows desktop application for secure PDF watermarking, personalized batch PDF generation, PDF encryption, trace-code watermarking, optional QR traceability, and controlled document distribution.
+XERIA is a Windows desktop application for secure PDF watermarking, personalized batch PDF generation, PDF encryption, trace-code watermarking, optional QR traceability, email delivery, cloud-connected workflows, and controlled document distribution.
 
 It is designed for users and organizations that need to distribute PDF documents securely while keeping each copy traceable to its intended recipient.
 
@@ -16,29 +16,104 @@ This GitHub repository is used for public product information, documentation, re
 
 ## Where can I download XERIA?
 
-The official XERIA installer should only be downloaded from the official XERIA website:
+The recommended way to install XERIA is through Microsoft Store:
+
+https://apps.microsoft.com/detail/9P37ZD7SQNZP
+
+The standalone direct installer is also available from the official XERIA website:
 
 https://xeriasoft.com/downloads/XERIA-setup.exe
 
 Do not download XERIA from unofficial mirrors, third-party file-sharing websites, repackaged installers, or unknown download sources.
 
+## Which installation method is recommended?
+
+Microsoft Store is recommended for most users.
+
+Microsoft Store provides a smoother Windows installation experience and Store-managed updates.
+
+The direct installer remains available as an alternative installation method for users who prefer a traditional standalone installer package.
+
+## Why is the Microsoft Store version 1.8.6 while the direct installer is 1.8.3?
+
+XERIA is currently distributed through two official channels:
+
+| Channel | Current Version | Status |
+|---|---:|---|
+| Microsoft Store | 1.8.6 | Recommended |
+| Direct Installer | 1.8.3 | Alternative stable installer |
+
+The Microsoft Store version and the direct installer are distributed separately.
+
+The direct installer may remain on an earlier stable build while Microsoft SmartScreen reputation is being established.
+
+## Is the Microsoft Store version the recommended version?
+
+Yes.
+
+For most users, the Microsoft Store version is the recommended installation method.
+
+Microsoft Store version:
+
+**XERIA 1.8.6**
+
+Microsoft Store link:
+
+https://apps.microsoft.com/detail/9P37ZD7SQNZP
+
+## Is the direct installer still official?
+
+Yes.
+
+The direct installer is still official when downloaded from the official XERIA website:
+
+https://xeriasoft.com/downloads/XERIA-setup.exe
+
+Current direct installer version:
+
+**XERIA 1.8.3**
+
+The direct installer remains available as an alternative stable installer.
+
 ## Is the XERIA installer digitally signed?
 
 Yes.
 
-The XERIA Windows installer is digitally signed.
+The XERIA direct Windows installer is digitally signed.
 
-Before installing, users should verify that the installer was downloaded from the official XERIA website and that the Windows publisher information matches the official publisher identity.
+Before installing the direct installer, users should verify that:
+
+* The installer was downloaded only from the official XERIA website
+* The installer came from this URL:
+
+  https://xeriasoft.com/downloads/XERIA-setup.exe
+
+* The Windows publisher information matches the official publisher identity
+* The installer has not been downloaded from an unofficial mirror or modified source
 
 ## Is XERIA free?
 
-XERIA may be available in trial mode where applicable.
+XERIA includes an unlimited free trial.
 
-Pro features require a valid license.
+Users can evaluate PDF watermarking, source identification, document protection, and core document workflow features before purchasing a license.
+
+The trial version has some limitations:
+
+* Email sending is disabled in trial mode
+* Generated PDF files include a visible trial banner
+* A valid license is required to remove trial banners and enable licensed functionality
 
 For current licensing, pricing, trial, and purchase information, please visit:
 
-https://xeriasoft.com
+https://xeriasoft.com/pricing.html
+
+## Where can I buy a XERIA license?
+
+XERIA licenses are purchased through the official XERIA website using a secure checkout flow:
+
+https://xeriasoft.com/pricing.html
+
+Microsoft Store is currently used for app distribution. Paid licenses are purchased outside Microsoft Store through the official XERIA website.
 
 ## What is trace-code watermarking?
 
@@ -72,15 +147,32 @@ Yes.
 
 XERIA supports batch email sending with personalized attachments when email integration is configured.
 
-Some email-related features may require a Pro license.
+Email sending is disabled in trial mode and requires a valid license.
+
+## Does XERIA support cloud-connected workflows?
+
+Yes.
+
+XERIA supports cloud-connected document workflows, including Dropbox, OneDrive, and Google Drive integrations.
+
+Cloud features require an internet connection and may require user authorization through the relevant cloud provider.
 
 ## Why might Microsoft Defender or SmartScreen show a warning?
 
-Microsoft Defender, Microsoft SmartScreen, or another security product may sometimes show a warning for newly released or recently updated desktop software, especially when a new installer file has not yet built enough reputation.
+Microsoft Defender, Microsoft SmartScreen, or another security product may sometimes show a warning for newly released or recently updated desktop software, especially when a new standalone installer file has not yet built enough reputation.
 
-If you receive a warning while downloading or installing XERIA, please verify that:
+This mainly applies to the direct installer.
 
-* The installer was downloaded only from https://xeriasoft.com/downloads/XERIA-setup.exe
+If you receive a warning while downloading or installing the direct installer, you may use the Microsoft Store version instead:
+
+https://apps.microsoft.com/detail/9P37ZD7SQNZP
+
+If you still prefer the direct installer, please verify that:
+
+* The installer was downloaded only from:
+
+  https://xeriasoft.com/downloads/XERIA-setup.exe
+
 * The installer is digitally signed
 * The Windows publisher information matches the official publisher identity
 * The file was not downloaded from an unofficial mirror or third-party website
@@ -93,7 +185,7 @@ If you believe the warning is incorrect, please contact:
 
 No.
 
-XERIA does not include bundled adware, browser extensions, cryptocurrency miners, unwanted background payloads, or third-party installers.
+XERIA does not include bundled adware, browser extensions, cryptocurrency miners, unwanted background payloads, spyware, or third-party installers.
 
 ## Where can I watch XERIA tutorials?
 
