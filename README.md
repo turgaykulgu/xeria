@@ -28,7 +28,7 @@ https://apps.microsoft.com/detail/9P37ZD7SQNZP
 
 Current Microsoft Store version:
 
-**XERIA 1.8.6**
+**XERIA 1.9.0**
 
 The Microsoft Store version provides a smoother Windows installation experience and Store-managed updates.
 
@@ -40,32 +40,32 @@ https://xeriasoft.com/downloads/XERIA-setup.exe
 
 Current direct installer version:
 
-**XERIA 1.8.3**
+**XERIA 1.9.0**
 
-The direct installer remains available as an alternative installation method. It may remain on an earlier stable build while Microsoft SmartScreen reputation is being established.
+The direct installer remains available as an official alternative installation method for users who prefer a traditional Windows installer package.
 
 ## Current Distribution Channels
 
 | Channel | Version | Status |
 |---|---:|---|
-| Microsoft Store | 1.8.6 | Recommended |
-| Direct Installer | 1.8.3 | Alternative stable installer |
+| Microsoft Store | 1.9.0 | Recommended |
+| Direct Installer | 1.9.0 | Alternative official installer |
 
-## Latest Updates
+Microsoft Store and direct installer distribution channels are currently aligned on the same public version.
 
-### XERIA 1.8.6 — Microsoft Store Release
+## Latest Update
 
-XERIA 1.8.6 is currently available through Microsoft Store.
+### XERIA 1.9.0 — Unified Microsoft Store and Direct Release
 
-This release adds Microsoft Store distribution support and Store-aware update behavior.
+Released: July 30, 2026
 
-### XERIA 1.8.3 — Direct Installer Stable Release
+XERIA 1.9.0 aligns the Microsoft Store and direct installer releases on the same version.
 
-XERIA 1.8.3 is currently available as the direct standalone installer from the official XERIA website.
+This release improves license synchronization for extended, shortened, revoked, withdrawn, and reactivated licenses. The latest verified license status is now stored securely on the local device for reliable offline use.
 
-This version introduced light and dark theme support, improved user interface consistency across the application, and fixed several visual and usability issues.
+It also fixes PDF preview page navigation and zoom behavior and improves consistency between online license validation and locally cached license information.
 
-This update also improved recipient list handling, theme switching behavior, button visibility, hover feedback, and readability in light theme.
+See the complete release history in [CHANGELOG.md](CHANGELOG.md).
 
 ## Key Features
 
@@ -173,6 +173,12 @@ Users can evaluate PDF watermarking, source identification, document protection,
 The trial version has some limitations. Email sending is disabled in trial mode, and generated PDF files include a visible trial banner.
 
 A valid license is required to remove trial banners and enable licensed functionality.
+
+## License Validation and Offline Use
+
+License activation and synchronization are handled through the official XERIA licensing system.
+
+XERIA 1.9.0 securely stores the latest verified license status on the local device to support reliable offline use. An internet connection may still be required for initial activation, periodic validation, license changes, and online services.
 
 ## Security and Trust
 
