@@ -16,7 +16,7 @@ https://apps.microsoft.com/detail/9P37ZD7SQNZP
 
 Current Microsoft Store version:
 
-**XERIA 1.8.6**
+**XERIA 1.9.0**
 
 ## Alternative Direct Installer
 
@@ -26,9 +26,11 @@ https://xeriasoft.com/downloads/XERIA-setup.exe
 
 Current direct installer version:
 
-**XERIA 1.8.3**
+**XERIA 1.9.0**
 
-The direct installer remains available as an alternative stable installation method for users who prefer a traditional Windows installer package.
+The direct installer remains available as an official alternative installation method for users who prefer a traditional Windows installer package.
+
+Microsoft Store and direct installer distribution channels are currently aligned on the same public version.
 
 ## Video Tutorials
 
@@ -47,7 +49,7 @@ Please include the following information when possible:
 * Windows version
 * A short description of the issue
 * Steps to reproduce the issue
-* Relevant screenshots, if available
+* Relevant screenshots or logs, if available
 
 ## Installation and Download Issues
 
@@ -65,6 +67,12 @@ Do not download XERIA from unofficial mirrors, repackaged installers, third-part
 
 ## License and Activation Questions
 
+XERIA validates licenses through the official XERIA licensing system.
+
+XERIA 1.9.0 improves synchronization for extended, shortened, revoked, withdrawn, and reactivated licenses. The latest verified license status is stored securely on the local device to support reliable offline use.
+
+An internet connection may still be required for initial activation, periodic validation, license changes, and online services.
+
 For license, activation, purchase, or trial-related questions, please contact:
 
 [support@xeriasoft.com](mailto:support@xeriasoft.com)
@@ -78,6 +86,20 @@ When contacting support about license or activation issues, please include:
 * Screenshot of the error message, if available
 
 Do not share license keys publicly in GitHub issues, discussions, screenshots, or public comments.
+
+## PDF Preview Issues
+
+XERIA 1.9.0 includes fixes for PDF preview page navigation and zoom behavior.
+
+When reporting a PDF preview issue, please include:
+
+* XERIA version number
+* The affected preview function
+* Steps to reproduce the behavior
+* A screenshot or screen recording, if available
+* Whether the issue also affects the generated PDF output
+
+Please do not send confidential source documents unless specifically requested through a private support channel.
 
 ## Security or False Positive Reports
 
