@@ -32,20 +32,18 @@ Microsoft Store is recommended for most users.
 
 Microsoft Store provides a smoother Windows installation experience and Store-managed updates.
 
-The direct installer remains available as an alternative installation method for users who prefer a traditional standalone installer package.
+The direct installer remains available as an official alternative installation method for users who prefer a traditional standalone installer package.
 
-## Why is the Microsoft Store version 1.8.6 while the direct installer is 1.8.3?
+## What is the current XERIA version?
 
 XERIA is currently distributed through two official channels:
 
 | Channel | Current Version | Status |
 |---|---:|---|
-| Microsoft Store | 1.8.6 | Recommended |
-| Direct Installer | 1.8.3 | Alternative stable installer |
+| Microsoft Store | 1.9.0 | Recommended |
+| Direct Installer | 1.9.0 | Alternative official installer |
 
-The Microsoft Store version and the direct installer are distributed separately.
-
-The direct installer may remain on an earlier stable build while Microsoft SmartScreen reputation is being established.
+Microsoft Store and direct installer distribution channels are currently aligned on XERIA 1.9.0.
 
 ## Is the Microsoft Store version the recommended version?
 
@@ -53,9 +51,9 @@ Yes.
 
 For most users, the Microsoft Store version is the recommended installation method.
 
-Microsoft Store version:
+Current Microsoft Store version:
 
-**XERIA 1.8.6**
+**XERIA 1.9.0**
 
 Microsoft Store link:
 
@@ -65,15 +63,15 @@ https://apps.microsoft.com/detail/9P37ZD7SQNZP
 
 Yes.
 
-The direct installer is still official when downloaded from the official XERIA website:
+The direct installer is official when downloaded from the official XERIA website:
 
 https://xeriasoft.com/downloads/XERIA-setup.exe
 
 Current direct installer version:
 
-**XERIA 1.8.3**
+**XERIA 1.9.0**
 
-The direct installer remains available as an alternative stable installer.
+The direct installer remains available as an alternative official installer.
 
 ## Is the XERIA installer digitally signed?
 
@@ -114,6 +112,14 @@ XERIA licenses are purchased through the official XERIA website using a secure c
 https://xeriasoft.com/pricing.html
 
 Microsoft Store is currently used for app distribution. Paid licenses are purchased outside Microsoft Store through the official XERIA website.
+
+## Does XERIA work offline after activation?
+
+XERIA can continue using the latest verified license status while temporarily offline.
+
+XERIA 1.9.0 securely stores the latest verified license status on the local device and improves synchronization for extended, shortened, revoked, withdrawn, and reactivated licenses.
+
+An internet connection may still be required for initial activation, periodic validation, license changes, updates, cloud integrations, email integrations, and other online services.
 
 ## What is trace-code watermarking?
 
@@ -156,6 +162,12 @@ Yes.
 XERIA supports cloud-connected document workflows, including Dropbox, OneDrive, and Google Drive integrations.
 
 Cloud features require an internet connection and may require user authorization through the relevant cloud provider.
+
+## Were the PDF preview controls improved?
+
+Yes.
+
+XERIA 1.9.0 includes fixes for PDF preview page navigation and zoom behavior.
 
 ## Why might Microsoft Defender or SmartScreen show a warning?
 
