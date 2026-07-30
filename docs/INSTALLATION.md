@@ -10,7 +10,7 @@ https://apps.microsoft.com/detail/9P37ZD7SQNZP
 
 Current Microsoft Store version:
 
-**XERIA 1.8.6**
+**XERIA 1.9.0**
 
 Microsoft Store is recommended for most users because it provides a smoother Windows installation experience and Store-managed updates.
 
@@ -22,11 +22,11 @@ https://xeriasoft.com/downloads/XERIA-setup.exe
 
 Current direct installer version:
 
-**XERIA 1.8.3**
+**XERIA 1.9.0**
 
-The direct installer remains available as an alternative installation method for users who prefer a traditional installer package.
+The direct installer remains available as an official alternative installation method for users who prefer a traditional Windows installer package.
 
-The direct installer may remain on an earlier stable build while Microsoft SmartScreen reputation is being established.
+Microsoft Store and direct installer distribution channels are currently aligned on the same public version.
 
 Do not download XERIA from unofficial mirrors, third-party file-sharing websites, repackaged installers, or unknown download sources.
 
@@ -39,7 +39,7 @@ Recommended environment:
 * Windows 10 or Windows 11
 * 64-bit Windows system
 * A standard Windows user account with permission to install desktop applications
-* Internet access for license activation, trial validation, updates, cloud integrations, and email integrations
+* Internet access for initial license activation, periodic validation, updates, cloud integrations, and email integrations
 * A PDF workflow where secure watermarking, encryption, trace-code watermarking, or personalized batch processing is required
 
 ## Installation Steps
@@ -98,6 +98,10 @@ The trial version has some limitations:
 * A valid license is required to remove trial banners and enable licensed functionality
 
 License activation requires an internet connection. After activation, XERIA validates the license through the official XERIA licensing system.
+
+XERIA 1.9.0 improves synchronization for extended, shortened, revoked, withdrawn, and reactivated licenses. The latest verified license status is stored securely on the local device to support reliable offline use.
+
+An internet connection may still be required for initial activation, periodic validation, license changes, and online services.
 
 For license, purchase, activation, or trial questions, please contact:
 
@@ -160,15 +164,15 @@ The Microsoft Store version uses Microsoft Store-managed updates.
 
 Current Microsoft Store version:
 
-**XERIA 1.8.6**
+**XERIA 1.9.0**
 
 ### Direct Installer Version
 
-The direct installer is updated separately from the Microsoft Store version.
+The direct installer can be updated through XERIA's update workflow or downloaded directly from the official XERIA website.
 
 Current direct installer version:
 
-**XERIA 1.8.3**
+**XERIA 1.9.0**
 
 Direct installer updates should only be downloaded from the official XERIA website:
 
