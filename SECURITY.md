@@ -12,7 +12,7 @@ https://apps.microsoft.com/detail/9P37ZD7SQNZP
 
 Current Microsoft Store version:
 
-**XERIA 1.8.6**
+**XERIA 1.9.0**
 
 ### Alternative: Direct Installer
 
@@ -22,11 +22,9 @@ https://xeriasoft.com/downloads/XERIA-setup.exe
 
 Current direct installer version:
 
-**XERIA 1.8.3**
+**XERIA 1.9.0**
 
-The direct installer remains available as an alternative installation method for users who prefer a traditional installer package.
-
-The direct installer may remain on an earlier stable build while Microsoft SmartScreen reputation is being established.
+The direct installer remains available as an official alternative installation method for users who prefer a traditional Windows installer package.
 
 Do not download XERIA from unofficial mirrors, third-party file-sharing websites, repackaged installer sources, or unknown download locations.
 
@@ -52,6 +50,14 @@ For most users, Microsoft Store remains the recommended installation method.
 XERIA is a legitimate Windows desktop application for secure PDF watermarking, personalized batch PDF generation, PDF encryption, trace-code watermarking, optional QR traceability, email delivery, cloud-connected workflows, and controlled document distribution.
 
 XERIA does not include bundled adware, browser extensions, cryptocurrency miners, unwanted background payloads, spyware, or third-party installers.
+
+## License Validation and Offline Use
+
+XERIA validates licenses through the official XERIA licensing system.
+
+In XERIA 1.9.0, license synchronization was improved for extended, shortened, revoked, withdrawn, and reactivated licenses. The latest verified license status is stored securely on the local device to support reliable offline use.
+
+An internet connection may still be required for initial activation, periodic validation, license changes, and access to online services.
 
 ## Security Reports
 
@@ -97,12 +103,10 @@ XERIA is currently distributed through two official channels:
 
 | Channel | Current Version | Status |
 |---|---:|---|
-| Microsoft Store | 1.8.6 | Recommended |
-| Direct Installer | 1.8.3 | Alternative stable installer |
+| Microsoft Store | 1.9.0 | Recommended |
+| Direct Installer | 1.9.0 | Alternative official installer |
 
-The Microsoft Store version is the recommended installation method for most users.
-
-The direct installer is updated separately and may remain on an earlier stable build while Microsoft SmartScreen reputation is being established.
+Microsoft Store and direct installer distribution channels are currently aligned on XERIA 1.9.0.
 
 Users are encouraged to install XERIA only from Microsoft Store or download the direct installer only from the official XERIA website:
 
