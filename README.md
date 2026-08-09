@@ -10,7 +10,7 @@ Secure PDF distribution with watermarking, source identification, password prote
   <a href="https://xeriasoft.com">Official Website</a> •
   <a href="https://apps.microsoft.com/detail/9P37ZD7SQNZP">Microsoft Store</a> •
   <a href="https://xeriasoft.com/downloads/XERIA-setup.exe">Direct Installer</a> •
-  <a href="https://xeriasoft.com/#pricing">Pricing</a> •
+  <a href="https://xeriasoft.com/pricing.html">Pricing</a> •
   <a href="https://xeriasoft.com/video-tutorials.html">Video Tutorials</a>
 </p>
 
@@ -22,50 +22,42 @@ It combines PDF watermarking, source identification, PDF encryption, personalize
 
 ### Recommended: Microsoft Store
 
-The recommended way to install XERIA is through Microsoft Store.
-
 https://apps.microsoft.com/detail/9P37ZD7SQNZP
 
 Current Microsoft Store version:
 
-**XERIA 1.9.0**
-
-The Microsoft Store version provides a smoother Windows installation experience and Store-managed updates.
+**XERIA 1.9.1**
 
 ### Alternative: Direct Installer
-
-The standalone Windows installer is also available from the official XERIA website.
 
 https://xeriasoft.com/downloads/XERIA-setup.exe
 
 Current direct installer version:
 
-**XERIA 1.9.0**
-
-The direct installer remains available as an official alternative installation method for users who prefer a traditional Windows installer package.
+**XERIA 1.9.1**
 
 ## Current Distribution Channels
 
 | Channel | Version | Status |
 |---|---:|---|
-| Microsoft Store | 1.9.0 | Recommended |
-| Direct Installer | 1.9.0 | Alternative official installer |
+| Microsoft Store | 1.9.1 | Recommended |
+| Direct Installer | 1.9.1 | Alternative official installer |
 
-Microsoft Store and direct installer distribution channels are currently aligned on the same public version.
+Microsoft Store and direct installer distribution channels are aligned on the same public version.
 
 ## Latest Update
 
-### XERIA 1.9.0 — Unified Microsoft Store and Direct Release
+### XERIA 1.9.1 — Display Compatibility and Watermark Rendering Update
 
-Released: July 30, 2026
+Released: August 9, 2026
 
-XERIA 1.9.0 aligns the Microsoft Store and direct installer releases on the same version.
+XERIA 1.9.1 adds comprehensive display compatibility for high-DPI settings and different screen resolutions. The interface now adapts to the usable screen area, switches to compact navigation on smaller displays, fits secondary windows within the active monitor work area, and improves usability across mixed-DPI multi-monitor configurations.
 
-This release improves license synchronization for extended, shortened, revoked, withdrawn, and reactivated licenses. The latest verified license status is now stored securely on the local device for reliable offline use.
+This release also improves rendering quality for small text and Trace Code watermarks, including very small size settings, while preserving their non-selectable and non-copyable behavior in generated PDFs.
 
-It also fixes PDF preview page navigation and zoom behavior and improves consistency between online license validation and locally cached license information.
+Localized navigation tooltips and additional window sizing and layout improvements are included. The Dropbox connection flow has also been streamlined by removing the unnecessary pre-connection information dialog.
 
-See the complete release history in [CHANGELOG.md](CHANGELOG.md).
+See the complete release history in [CHANGELOG.md](CHANGELOG.md) and the detailed [XERIA 1.9.1 release notes](docs/releases/RELEASE-NOTES-1.9.1.md).
 
 ## Key Features
 
@@ -77,8 +69,9 @@ See the complete release history in [CHANGELOG.md](CHANGELOG.md).
 * Controlled printing, copying, and modification permissions
 * Single PDF, folder-based, and personalized batch workflows
 * Batch email sending with personalized attachments
-* Cloud-connected document workflows
+* Dropbox, OneDrive, and Google Drive connected workflows
 * Mail log and delivery tracking support
+* Adaptive display scaling and per-monitor DPI support
 * Light and dark theme support
 * Multi-language user interface
 * Windows desktop application
@@ -111,131 +104,59 @@ See the complete release history in [CHANGELOG.md](CHANGELOG.md).
 
 ## Typical Use Cases
 
-XERIA can be used for:
-
-* Instructor guides and training documents
-* Internal company manuals
-* Confidential reports
-* Recipient-specific PDF copies
-* Controlled document distribution
-* Traceable PDF sharing
-* Secure document delivery by email
-* Source identification for redistributed PDF copies
-* Batch generation of personalized protected documents
+XERIA can be used for instructor guides and training documents, internal company manuals, confidential reports, recipient-specific PDF copies, controlled document distribution, traceable PDF sharing, secure document delivery by email, source identification for redistributed PDF copies, and batch generation of personalized protected documents.
 
 ## Official Links
 
-### Official Website
+Official website: https://xeriasoft.com
 
-https://xeriasoft.com
+Microsoft Store: https://apps.microsoft.com/detail/9P37ZD7SQNZP
 
-### Recommended Download
+Direct installer: https://xeriasoft.com/downloads/XERIA-setup.exe
 
-Microsoft Store:
+Pricing: https://xeriasoft.com/pricing.html
 
-https://apps.microsoft.com/detail/9P37ZD7SQNZP
+Video tutorials: https://xeriasoft.com/video-tutorials.html
 
-### Alternative Direct Installer
+YouTube: https://www.youtube.com/@xeriasoft
 
-https://xeriasoft.com/downloads/XERIA-setup.exe
-
-### Pricing
-
-https://xeriasoft.com/pricing.html
-
-### Video Tutorials
-
-https://xeriasoft.com/video-tutorials.html
-
-### Official YouTube Channel
-
-https://www.youtube.com/@xeriasoft
-
-### Latest GitHub Release
-
-https://github.com/turgaykulgu/xeria/releases/latest
+Latest GitHub release: https://github.com/turgaykulgu/xeria/releases/latest
 
 ## Documentation
 
 * [Installation Guide](docs/INSTALLATION.md)
 * [FAQ](docs/FAQ.md)
+* [Display Requirements](DISPLAY-REQUIREMENTS.md)
 * [Security Policy](SECURITY.md)
 * [Support](SUPPORT.md)
 * [Changelog](CHANGELOG.md)
+* [XERIA 1.9.1 Release Notes](docs/releases/RELEASE-NOTES-1.9.1.md)
 * [License Notice](LICENSE.md)
 
 ## Free Trial
 
-XERIA includes an unlimited free trial.
-
-Users can evaluate PDF watermarking, source identification, document protection, and core document workflow features before purchasing a license.
-
-The trial version has some limitations. Email sending is disabled in trial mode, and generated PDF files include a visible trial banner.
-
-A valid license is required to remove trial banners and enable licensed functionality.
+XERIA includes an unlimited free trial. Email sending is disabled in trial mode, generated PDF files include a visible trial banner, and a valid license is required to remove trial banners and enable licensed functionality.
 
 ## License Validation and Offline Use
 
-License activation and synchronization are handled through the official XERIA licensing system.
-
-XERIA 1.9.0 securely stores the latest verified license status on the local device to support reliable offline use. An internet connection may still be required for initial activation, periodic validation, license changes, and online services.
+Since XERIA 1.9.0, the latest verified license status is stored securely on the local device to support reliable offline use. An internet connection may still be required for initial activation, periodic validation, license changes, and online services.
 
 ## Security and Trust
 
-The recommended installation method is Microsoft Store:
-
-https://apps.microsoft.com/detail/9P37ZD7SQNZP
-
-The official direct installer is digitally signed and is available from the official XERIA website:
-
-https://xeriasoft.com/downloads/XERIA-setup.exe
-
-For security reasons, XERIA should only be installed from Microsoft Store or downloaded from the official XERIA website.
+The recommended installation method is Microsoft Store. The official direct installer is digitally signed and is available only from the official XERIA website.
 
 XERIA does not include bundled adware, browser extensions, cryptocurrency miners, unwanted background payloads, or third-party installers.
 
-If Microsoft Defender, Microsoft SmartScreen, or another security product incorrectly flags the official direct installer, please report the issue to:
-
-[support@xeriasoft.com](mailto:support@xeriasoft.com)
-
-## Publisher and Brand
-
-XERIA is the official product brand of this software.
-
-Official website:
-
-https://xeriasoft.com
-
-The XERIA direct installer is digitally signed.
+If Microsoft Defender, Microsoft SmartScreen, or another security product incorrectly flags the official direct installer, contact [support@xeriasoft.com](mailto:support@xeriasoft.com).
 
 ## License
 
-XERIA is commercial closed-source software.
-
-This repository is provided for public product information, documentation, release notes, security notices, installation guidance, and support references.
-
-This repository does not contain the XERIA application source code.
-
-The XERIA application, installer, binaries, documentation, branding, logos, and related materials are protected by applicable copyright, trademark, and software licensing laws.
+XERIA is commercial closed-source software. This repository is provided for public product information, documentation, release notes, security notices, installation guidance, and support references. It does not contain the XERIA application source code.
 
 ## Support
 
-For support, licensing questions, installation issues, download issues, or false-positive security reports, please contact:
-
 [support@xeriasoft.com](mailto:support@xeriasoft.com)
-
-Official website:
-
-https://xeriasoft.com
 
 ## Important Notice
 
 Do not download XERIA from unofficial mirrors, repackaged installers, third-party file-sharing websites, or unknown sources.
-
-Recommended installation method:
-
-https://apps.microsoft.com/detail/9P37ZD7SQNZP
-
-Official direct installer:
-
-https://xeriasoft.com/downloads/XERIA-setup.exe
