@@ -2,35 +2,26 @@
 
 Thank you for using XERIA.
 
-For product support, licensing questions, installation issues, download issues, security reports, or general inquiries, please contact the official XERIA support channel.
+For product support, licensing questions, installation issues, download issues, security reports, or general inquiries, please use the official XERIA support channel.
 
 ## Official Website
 
 https://xeriasoft.com
 
-## Recommended Download
+## Current Version and Downloads
 
-The recommended way to install XERIA is through Microsoft Store:
+| Channel | Current Version | Status |
+|---|---:|---|
+| Microsoft Store | 1.9.1 | Recommended |
+| Direct Installer | 1.9.1 | Alternative official installer |
+
+Microsoft Store:
 
 https://apps.microsoft.com/detail/9P37ZD7SQNZP
 
-Current Microsoft Store version:
-
-**XERIA 1.9.0**
-
-## Alternative Direct Installer
-
-The standalone direct installer is also available from the official XERIA website:
+Direct installer:
 
 https://xeriasoft.com/downloads/XERIA-setup.exe
-
-Current direct installer version:
-
-**XERIA 1.9.0**
-
-The direct installer remains available as an official alternative installation method for users who prefer a traditional Windows installer package.
-
-Microsoft Store and direct installer distribution channels are currently aligned on the same public version.
 
 ## Video Tutorials
 
@@ -42,92 +33,84 @@ https://xeriasoft.com/video-tutorials.html
 
 ## When Contacting Support
 
-Please include the following information when possible:
+Please include when possible:
 
 * XERIA version number
-* Whether you installed XERIA from Microsoft Store or the direct installer
+* Installation source: Microsoft Store or direct installer
 * Windows version
+* Display resolution and Windows scaling percentage for display-related issues
 * A short description of the issue
 * Steps to reproduce the issue
-* Relevant screenshots or logs, if available
+* Relevant screenshots or logs
 
 ## Installation and Download Issues
 
-For most users, Microsoft Store is the recommended installation method:
+Microsoft Store is recommended for most users.
 
-https://apps.microsoft.com/detail/9P37ZD7SQNZP
-
-If you experience download, installer, Microsoft Defender, or SmartScreen warnings with the direct installer, you may install XERIA from Microsoft Store instead.
-
-If you still prefer the direct installer, please make sure it was downloaded only from the official XERIA website:
+If you use the direct installer, download it only from:
 
 https://xeriasoft.com/downloads/XERIA-setup.exe
 
 Do not download XERIA from unofficial mirrors, repackaged installers, third-party file-sharing websites, or unknown sources.
 
+## Display, DPI, and Window Layout Issues
+
+XERIA 1.9.1 adds adaptive display behavior for different resolutions, Windows scaling levels, and mixed-DPI monitor environments.
+
+See [Display Requirements](DISPLAY-REQUIREMENTS.md).
+
+When reporting a display issue, include:
+
+* Screen resolution
+* Windows display scaling percentage
+* Whether multiple monitors are connected
+* Scaling percentage for each monitor, if different
+* Whether XERIA was maximized or in a normal window
+* A screenshot showing the affected area
+
+## Watermark Rendering Issues
+
+XERIA 1.9.1 improves rendering quality for small text and Trace Code watermarks while preserving non-selectable and non-copyable output behavior.
+
+When reporting a watermark rendering issue, include:
+
+* Watermark type
+* Watermark size percentage
+* Opacity percentage
+* Rotation angle
+* Whether tiled/multiple watermark mode is enabled
+* A screenshot of the generated PDF at normal and high zoom
+
+Please do not send confidential source documents unless specifically requested through a private support channel.
+
 ## License and Activation Questions
 
 XERIA validates licenses through the official XERIA licensing system.
 
-XERIA 1.9.0 improves synchronization for extended, shortened, revoked, withdrawn, and reactivated licenses. The latest verified license status is stored securely on the local device to support reliable offline use.
+Since XERIA 1.9.0, the latest verified license status is stored securely on the local device to support reliable offline use and improved synchronization of license changes.
 
 An internet connection may still be required for initial activation, periodic validation, license changes, and online services.
-
-For license, activation, purchase, or trial-related questions, please contact:
-
-[support@xeriasoft.com](mailto:support@xeriasoft.com)
-
-When contacting support about license or activation issues, please include:
-
-* XERIA version number
-* Installation source: Microsoft Store or direct installer
-* Your Windows version
-* A short description of the activation or license issue
-* Screenshot of the error message, if available
 
 Do not share license keys publicly in GitHub issues, discussions, screenshots, or public comments.
 
 ## PDF Preview Issues
 
-XERIA 1.9.0 includes fixes for PDF preview page navigation and zoom behavior.
+XERIA 1.9.0 introduced fixes for PDF preview page navigation and zoom behavior. XERIA 1.9.1 keeps these functions compatible with the new adaptive display system.
 
-When reporting a PDF preview issue, please include:
-
-* XERIA version number
-* The affected preview function
-* Steps to reproduce the behavior
-* A screenshot or screen recording, if available
-* Whether the issue also affects the generated PDF output
-
-Please do not send confidential source documents unless specifically requested through a private support channel.
+When reporting a PDF preview issue, include the affected function, steps to reproduce, and a screenshot or screen recording.
 
 ## Security or False Positive Reports
 
-Microsoft Defender, Microsoft SmartScreen, or another security product may sometimes show a warning for newly released or recently updated desktop software, especially when a new standalone installer file has not yet built enough reputation.
-
-This mainly applies to the direct installer.
-
-If Microsoft Defender, Microsoft SmartScreen, or another security product incorrectly flags the official XERIA direct installer, you may use the Microsoft Store version instead:
-
-https://apps.microsoft.com/detail/9P37ZD7SQNZP
-
-If you believe the warning is incorrect, please contact:
+If Microsoft Defender, Microsoft SmartScreen, or another security product incorrectly flags the official direct installer, contact:
 
 [support@xeriasoft.com](mailto:support@xeriasoft.com)
 
-Please include:
-
-* The exact warning message
-* The XERIA installer file name
-* The download URL used
-* The security product name and version
-* Your Windows version
-* A screenshot of the warning, if available
+Please include the exact warning, installer file name, download URL, security product name/version, Windows version, and a screenshot if available.
 
 ## Privacy Notice
 
-Please do not upload confidential PDF documents, license keys, passwords, personal data, customer data, or private business documents to public GitHub issues or public discussions.
+Do not upload confidential PDF documents, license keys, passwords, personal data, customer data, or private business documents to public GitHub issues or discussions.
 
-For private support requests, use email instead:
+For private support requests, use email:
 
 [support@xeriasoft.com](mailto:support@xeriasoft.com)
