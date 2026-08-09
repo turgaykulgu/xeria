@@ -4,15 +4,15 @@ This changelog summarizes notable public updates for XERIA.
 
 XERIA is a commercial Windows desktop application for secure PDF watermarking, personalized batch PDF generation, PDF encryption, trace-code watermarking, optional QR traceability, email delivery, cloud-connected workflows, and controlled document distribution.
 
-## XERIA 1.9.0 — Unified Microsoft Store and Direct Release
+## XERIA 1.9.1 — Display Compatibility and Watermark Rendering Update
 
-Released: July 30, 2026
+Released: August 9, 2026
 
 ### Availability
 
 * Available through Microsoft Store.
 * Available as the standalone direct Windows installer from the official XERIA website.
-* Microsoft Store and direct installer distribution channels are now aligned on the same version.
+* Microsoft Store and direct installer distribution channels are aligned on version 1.9.1.
 
 Microsoft Store:
 
@@ -22,10 +22,46 @@ Direct installer:
 
 https://xeriasoft.com/downloads/XERIA-setup.exe
 
+### Added
+
+* Added comprehensive adaptive display scaling for high-DPI settings and different screen resolutions.
+* Added automatic compact navigation behavior for low-resolution displays and narrow windows.
+* Added localized navigation tooltips in all nine supported interface languages.
+* Added dynamic minimum window sizing to preserve usability on smaller work areas.
+* Added public display requirements documentation.
+
+### Improved
+
+* Improved interface compatibility for displays with a resolution of 1024 × 768 or higher.
+* Improved transitions between maximized, restored, and manually resized window states.
+* Improved behavior when moving XERIA between monitors with different DPI settings.
+* Improved positioning and sizing of secondary windows and custom file-selection dialogs within the usable monitor work area.
+* Improved taskbar, monitor work-area, and window-position calculations.
+* Improved PDF preview, watermark positioning, zoom, and page navigation compatibility with the adaptive scaling system.
+* Improved rendering quality for small text and Trace Code watermarks, including very small watermark size settings.
+* Improved text watermark sharpness while preserving non-selectable and non-copyable output behavior.
+* Streamlined the Dropbox connection flow.
+
+### Fixed
+
+* Fixed text and Trace Code watermark rendering artifacts that could appear at small watermark sizes.
+* Fixed additional window sizing and layout issues across different resolutions and Windows scaling levels.
+* Removed the unnecessary informational dialog shown before Dropbox authorization.
+
+## XERIA 1.9.0 — Unified Microsoft Store and Direct Release
+
+Released: July 30, 2026
+
+### Availability
+
+* Available through Microsoft Store.
+* Available as the standalone direct Windows installer from the official XERIA website.
+* Microsoft Store and direct installer distribution channels were aligned on the same version.
+
 ### Improved
 
 * Improved license synchronization for extended, shortened, revoked, withdrawn, and reactivated licenses.
-* The latest verified license status is now stored securely on the local device for reliable offline use.
+* The latest verified license status is stored securely on the local device for reliable offline use.
 * Improved consistency between online license validation and locally cached license information.
 * Improved PDF preview page navigation and zoom controls.
 
@@ -92,10 +128,6 @@ Released: July 2026
 * Available through Microsoft Store.
 * Recommended installation method for most Windows users.
 
-Microsoft Store:
-
-https://apps.microsoft.com/detail/9P37ZD7SQNZP
-
 ### Added
 
 * Added initial Microsoft Store distribution support.
@@ -105,16 +137,8 @@ https://apps.microsoft.com/detail/9P37ZD7SQNZP
 ### Improved
 
 * Improved installation experience for Microsoft Store users.
-* Store-installed versions now rely on Microsoft Store-managed updates.
+* Store-installed versions rely on Microsoft Store-managed updates.
 * Direct web installer updates are separated from Microsoft Store update behavior.
-* Improved distribution clarity between Microsoft Store and standalone installer channels.
-
-### Notes
-
-* At the time of this release, XERIA 1.8.6 was available through Microsoft Store.
-* At the time of this release, the direct standalone installer remained on version 1.8.3 while Microsoft SmartScreen reputation was being established.
-* The Microsoft Store version was the recommended installation method.
-* The direct installer remained available as an alternative installation method from the official XERIA website.
 
 ## XERIA 1.8.3 — Direct Installer Stable Release
 
@@ -123,11 +147,6 @@ Released: June 24, 2026
 ### Availability
 
 * Available as the standalone direct Windows installer from the official XERIA website.
-* Alternative installation method for users who prefer a traditional installer package.
-
-Direct installer:
-
-https://xeriasoft.com/downloads/XERIA-setup.exe
 
 ### Added
 
@@ -141,68 +160,65 @@ https://xeriasoft.com/downloads/XERIA-setup.exe
 * Improved theme behavior across PDF Edit, Email Management, Trace Analyzer, Cloud Access, License, Mail Log, Language, Update, Privacy, and About pages.
 * Improved PDF Edit page appearance when selecting multiple pages.
 * Improved overall application usability and visual polish.
-* Improved public documentation and release information.
 
 ### Fixed
 
 * Fixed an issue where adding a new recipient to the default recipient list could fail.
 * Fixed several light theme display and contrast issues.
 * Fixed selected-row visual inconsistencies when switching between dark and light themes.
-* Fixed minor user interface issues affecting readability and interaction feedback.
 * Fixed general stability and usability issues reported during testing.
 
 ## Current Distribution Channels
 
 | Channel | Current Version | Status |
 |---|---:|---|
-| Microsoft Store | 1.9.0 | Recommended |
-| Direct Installer | 1.9.0 | Alternative official installer |
+| Microsoft Store | 1.9.1 | Recommended |
+| Direct Installer | 1.9.1 | Alternative official installer |
 
 ## Current Development Focus
 
-* Display scaling and responsive layout improvements for different Windows resolutions and scaling settings
+* Secure PDF watermarking and traceability refinements
+* Personalized batch workflow improvements
+* Cloud-connected workflow usability
 * Microsoft Store and direct installer release alignment
-* License synchronization and offline license reliability
-* PDF preview navigation and usability refinements
-* User interface improvements
 * Video tutorial expansion
-* Website and documentation improvements
+* Website, Resource Center, and documentation improvements
 * Public release communication improvements
 
 ## Recent Highlights
 
-* Aligned Microsoft Store and direct installer releases on XERIA 1.9.0
-* Improved online and offline license synchronization
+* Added high-DPI, mixed-DPI, and multi-resolution display compatibility in XERIA 1.9.1
+* Added automatic compact navigation behavior for smaller displays
+* Improved small text and Trace Code watermark rendering while preserving non-selectable output
+* Streamlined Dropbox authorization
+* Aligned Microsoft Store and direct installer releases on XERIA 1.9.1
+* Improved online and offline license synchronization in XERIA 1.9.0
 * Added secure local storage of the latest verified license status
 * Fixed PDF preview navigation and zoom behavior
 * Fixed watermark opacity consistency between preview and final output
-* Improved Microsoft Store package icons and application assets
 * Added Microsoft Store availability
 * Added digitally signed Windows installer support
 * Added light and dark theme support
-* Added guided workflow wizard for main PDF workflows
-* Improved personalized batch PDF generation workflow
-* Improved batch email sending workflow
-* Improved PDF watermarking and trace-code workflow
-* Improved cloud access interface
-* Improved multi-language user interface support
-* Improved public documentation and support references
+* Improved personalized batch PDF generation and batch email workflows
+* Improved cloud access and multi-language user interface support
 
 ## Public Documentation
 
-* Added public GitHub product page
-* Added commercial closed-source license notice
-* Added security policy
-* Added official website, Microsoft Store, and direct installer references
-* Added support and false-positive reporting guidance
+* Public GitHub product page
+* Commercial closed-source license notice
+* Security policy
+* Display requirements
+* Installation guide and FAQ
+* Official website, Microsoft Store, and direct installer references
+* Support and false-positive reporting guidance
 
 ## Official Downloads
 
-### Recommended: Microsoft Store
+Microsoft Store:
 
 https://apps.microsoft.com/detail/9P37ZD7SQNZP
 
-### Alternative: Direct Installer
+Direct Installer:
 
 https://xeriasoft.com/downloads/XERIA-setup.exe
 
