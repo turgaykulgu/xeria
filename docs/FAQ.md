@@ -4,194 +4,148 @@
 
 XERIA is a Windows desktop application for secure PDF watermarking, personalized batch PDF generation, PDF encryption, trace-code watermarking, optional QR traceability, email delivery, cloud-connected workflows, and controlled document distribution.
 
-It is designed for users and organizations that need to distribute PDF documents securely while keeping each copy traceable to its intended recipient.
-
 ## Is XERIA open source?
 
-No.
+No. XERIA is commercial closed-source software.
 
-XERIA is commercial closed-source software.
-
-This GitHub repository is used for public product information, documentation, release notes, security notices, installation guidance, and support references. It does not contain the XERIA application source code.
+This repository is used for public product information, documentation, release notes, security notices, installation guidance, and support references. It does not contain the application source code.
 
 ## Where can I download XERIA?
 
-The recommended way to install XERIA is through Microsoft Store:
+Recommended:
 
 https://apps.microsoft.com/detail/9P37ZD7SQNZP
 
-The standalone direct installer is also available from the official XERIA website:
+Direct installer:
 
 https://xeriasoft.com/downloads/XERIA-setup.exe
 
-Do not download XERIA from unofficial mirrors, third-party file-sharing websites, repackaged installers, or unknown download sources.
-
-## Which installation method is recommended?
-
-Microsoft Store is recommended for most users.
-
-Microsoft Store provides a smoother Windows installation experience and Store-managed updates.
-
-The direct installer remains available as an official alternative installation method for users who prefer a traditional standalone installer package.
+Do not download XERIA from unofficial mirrors or repackaged sources.
 
 ## What is the current XERIA version?
 
-XERIA is currently distributed through two official channels:
-
 | Channel | Current Version | Status |
 |---|---:|---|
-| Microsoft Store | 1.9.0 | Recommended |
-| Direct Installer | 1.9.0 | Alternative official installer |
+| Microsoft Store | 1.9.1 | Recommended |
+| Direct Installer | 1.9.1 | Alternative official installer |
 
-Microsoft Store and direct installer distribution channels are currently aligned on XERIA 1.9.0.
+Microsoft Store and direct installer channels are aligned on XERIA 1.9.1.
 
-## Is the Microsoft Store version the recommended version?
+## What changed in XERIA 1.9.1?
+
+XERIA 1.9.1 focuses on display compatibility and watermark rendering quality.
+
+It adds adaptive scaling for high-DPI and different screen resolutions, automatic compact navigation on smaller displays, improved mixed-DPI multi-monitor behavior, better secondary-window sizing, and localized navigation tooltips.
+
+It also improves rendering quality for small text and Trace Code watermarks and streamlines the Dropbox connection flow.
+
+See [XERIA 1.9.1 Release Notes](releases/RELEASE-NOTES-1.9.1.md).
+
+## What resolution does XERIA support?
+
+Minimum supported resolution: **1024 × 768**
+
+Recommended resolution: **1366 × 768 or higher**
+
+Recommended Windows display scaling: **100% to 175%**
+
+See [Display Requirements](../DISPLAY-REQUIREMENTS.md).
+
+## Does XERIA support high-DPI and multiple monitors?
 
 Yes.
 
-For most users, the Microsoft Store version is the recommended installation method.
+XERIA 1.9.1 recalculates the interface for the active monitor, supports per-monitor DPI behavior, and preserves usability when moved between monitors with different Windows scaling values.
 
-Current Microsoft Store version:
+## Why does the navigation menu become compact?
 
-**XERIA 1.9.0**
+On low-resolution displays or when a normal window is made narrow, XERIA can switch automatically to compact icon navigation so that more usable width remains available for the main content.
 
-Microsoft Store link:
+Localized tooltips identify the navigation icons while compact mode is active.
 
-https://apps.microsoft.com/detail/9P37ZD7SQNZP
+## Are Trace Code and text watermarks selectable in the generated PDF?
 
-## Is the direct installer still official?
+No.
+
+XERIA 1.9.1 improves the rendering quality of small text and Trace Code watermarks while preserving their non-selectable and non-copyable behavior as normal PDF text.
+
+## Can very small text or Trace Code watermarks be used?
 
 Yes.
 
-The direct installer is official when downloaded from the official XERIA website:
+XERIA 1.9.1 improves sharpness and stability at very small watermark size settings. Practical visibility still depends on size, opacity, color, page content, and zoom level.
+
+## Is the Microsoft Store version recommended?
+
+Yes. For most users, Microsoft Store is the recommended installation method.
+
+## Is the direct installer official?
+
+Yes, when downloaded from:
 
 https://xeriasoft.com/downloads/XERIA-setup.exe
 
-Current direct installer version:
-
-**XERIA 1.9.0**
-
-The direct installer remains available as an alternative official installer.
-
-## Is the XERIA installer digitally signed?
-
-Yes.
-
-The XERIA direct Windows installer is digitally signed.
-
-Before installing the direct installer, users should verify that:
-
-* The installer was downloaded only from the official XERIA website
-* The installer came from this URL:
-
-  https://xeriasoft.com/downloads/XERIA-setup.exe
-
-* The Windows publisher information matches the official publisher identity
-* The installer has not been downloaded from an unofficial mirror or modified source
+The direct installer is digitally signed.
 
 ## Is XERIA free?
 
 XERIA includes an unlimited free trial.
 
-Users can evaluate PDF watermarking, source identification, document protection, and core document workflow features before purchasing a license.
+Email sending is disabled in trial mode, generated PDFs include a visible trial banner, and licensed functionality requires a valid license.
 
-The trial version has some limitations:
-
-* Email sending is disabled in trial mode
-* Generated PDF files include a visible trial banner
-* A valid license is required to remove trial banners and enable licensed functionality
-
-For current licensing, pricing, trial, and purchase information, please visit:
+Pricing and purchase information:
 
 https://xeriasoft.com/pricing.html
-
-## Where can I buy a XERIA license?
-
-XERIA licenses are purchased through the official XERIA website using a secure checkout flow:
-
-https://xeriasoft.com/pricing.html
-
-Microsoft Store is currently used for app distribution. Paid licenses are purchased outside Microsoft Store through the official XERIA website.
 
 ## Does XERIA work offline after activation?
 
 XERIA can continue using the latest verified license status while temporarily offline.
 
-XERIA 1.9.0 securely stores the latest verified license status on the local device and improves synchronization for extended, shortened, revoked, withdrawn, and reactivated licenses.
+Since XERIA 1.9.0, the latest verified license status is stored securely on the local device and license synchronization handles administrative license changes more reliably.
 
-An internet connection may still be required for initial activation, periodic validation, license changes, updates, cloud integrations, email integrations, and other online services.
+Internet access may still be required for activation, periodic validation, license changes, updates, cloud integrations, email integrations, and other online services.
 
 ## What is trace-code watermarking?
 
-Trace-code watermarking means that XERIA can place recipient-specific trace information into generated PDF copies.
-
-This helps identify which recipient or distribution record a specific PDF copy belongs to.
+Trace-code watermarking places recipient-specific trace information into generated PDF copies to help identify the intended recipient or distribution record.
 
 ## Is QR traceability required?
 
-No.
-
-QR-based traceability is optional.
-
-XERIA supports trace-code watermarking as part of its document traceability workflow. QR traceability can be used when an additional QR-based reference is needed.
+No. QR-based traceability is optional.
 
 ## Can XERIA process multiple recipients?
 
-Yes.
-
-XERIA supports personalized batch PDF generation for recipient lists. Each recipient can receive a personalized PDF copy with recipient-specific watermarking and optional security settings.
+Yes. XERIA supports personalized batch PDF generation for recipient lists.
 
 ## Can XERIA encrypt PDF files?
 
-Yes.
+Yes. XERIA supports open and owner passwords and PDF permission controls such as printing, copying, and modification restrictions.
 
-XERIA supports PDF encryption with open and owner passwords, as well as controlled permissions such as printing, copying, and modification restrictions.
+## Can XERIA send generated PDFs by email?
 
-## Can XERIA send generated PDF files by email?
-
-Yes.
-
-XERIA supports batch email sending with personalized attachments when email integration is configured.
-
-Email sending is disabled in trial mode and requires a valid license.
+Yes, when email integration is configured and a valid license is active. Email sending is disabled in trial mode.
 
 ## Does XERIA support cloud-connected workflows?
 
-Yes.
+Yes. XERIA supports Dropbox, OneDrive, and Google Drive connected workflows.
 
-XERIA supports cloud-connected document workflows, including Dropbox, OneDrive, and Google Drive integrations.
+Cloud features require internet access and provider authorization.
 
-Cloud features require an internet connection and may require user authorization through the relevant cloud provider.
+## What changed in the Dropbox connection flow in 1.9.1?
+
+The connection flow was simplified by removing the unnecessary informational dialog that previously appeared before Dropbox authorization. Selecting **Connect** now proceeds directly to the authorization flow.
 
 ## Were the PDF preview controls improved?
 
-Yes.
-
-XERIA 1.9.0 includes fixes for PDF preview page navigation and zoom behavior.
+Yes. XERIA 1.9.0 fixed page navigation and zoom behavior, and XERIA 1.9.1 keeps preview behavior compatible with the new adaptive display system.
 
 ## Why might Microsoft Defender or SmartScreen show a warning?
 
-Microsoft Defender, Microsoft SmartScreen, or another security product may sometimes show a warning for newly released or recently updated desktop software, especially when a new standalone installer file has not yet built enough reputation.
+Newly released direct-installer builds may occasionally trigger reputation-based warnings.
 
-This mainly applies to the direct installer.
+Install only from Microsoft Store or the official XERIA website and verify the direct installer's digital signature.
 
-If you receive a warning while downloading or installing the direct installer, you may use the Microsoft Store version instead:
-
-https://apps.microsoft.com/detail/9P37ZD7SQNZP
-
-If you still prefer the direct installer, please verify that:
-
-* The installer was downloaded only from:
-
-  https://xeriasoft.com/downloads/XERIA-setup.exe
-
-* The installer is digitally signed
-* The Windows publisher information matches the official publisher identity
-* The file was not downloaded from an unofficial mirror or third-party website
-
-If you believe the warning is incorrect, please contact:
-
-[support@xeriasoft.com](mailto:support@xeriasoft.com)
+For suspected false positives, contact [support@xeriasoft.com](mailto:support@xeriasoft.com).
 
 ## Does XERIA include adware or bundled software?
 
@@ -199,20 +153,14 @@ No.
 
 XERIA does not include bundled adware, browser extensions, cryptocurrency miners, unwanted background payloads, spyware, or third-party installers.
 
-## Where can I watch XERIA tutorials?
-
-XERIA video tutorials are available here:
+## Where can I watch tutorials?
 
 https://xeriasoft.com/video-tutorials.html
-
-You can also watch XERIA tutorials and product videos on the official YouTube channel:
 
 https://www.youtube.com/@xeriasoft
 
 ## How can I get support?
 
-For installation help, licensing questions, activation problems, download issues, or security-related reports, please contact:
-
 [support@xeriasoft.com](mailto:support@xeriasoft.com)
 
-Please do not share confidential PDF documents, license keys, passwords, or personal data in public GitHub areas.
+Do not share confidential PDFs, license keys, passwords, or personal data in public GitHub areas.
