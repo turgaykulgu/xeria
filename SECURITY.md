@@ -10,7 +10,7 @@ https://apps.microsoft.com/detail/9P37ZD7SQNZP
 
 Current Microsoft Store version:
 
-**XERIA 1.9.1**
+**XERIA 1.9.4**
 
 ### Alternative: Direct Installer
 
@@ -18,7 +18,7 @@ https://xeriasoft.com/downloads/XERIA-setup.exe
 
 Current direct installer version:
 
-**XERIA 1.9.1**
+**XERIA 1.9.4**
 
 The direct installer remains an official alternative installation method.
 
@@ -46,7 +46,7 @@ XERIA does not include bundled adware, browser extensions, cryptocurrency miners
 
 ## Watermark Rendering and Traceability
 
-XERIA 1.9.1 improves the rendering quality of small text and Trace Code watermarks.
+XERIA 1.9.1 introduced improved rendering quality for small text and Trace Code watermarks, and this behavior is retained in XERIA 1.9.4.
 
 Text and Trace Code watermarks are rendered so that they are not exposed as normal selectable or copyable PDF text. This helps preserve their intended role as visual identification and traceability elements.
 
@@ -97,10 +97,10 @@ Please include the exact warning, installer file name, download URL, security pr
 
 | Channel | Current Version | Status |
 |---|---:|---|
-| Microsoft Store | 1.9.1 | Recommended |
-| Direct Installer | 1.9.1 | Alternative official installer |
+| Microsoft Store | 1.9.4 | Recommended |
+| Direct Installer | 1.9.4 | Alternative official installer |
 
-Microsoft Store and direct installer distribution channels are aligned on XERIA 1.9.1.
+Microsoft Store and direct installer distribution channels are aligned on XERIA 1.9.4.
 
 ## Important Notice
 
