@@ -2,7 +2,7 @@
 
 XERIA includes adaptive display scaling for different screen resolutions, Windows scaling levels, and per-monitor DPI environments.
 
-This document reflects the display behavior introduced and validated for XERIA 1.9.1.
+This document reflects the adaptive display behavior introduced in XERIA 1.9.1 and further improved for large and 4K displays in XERIA 1.9.4.
 
 ## Minimum and Recommended Resolution
 
@@ -36,7 +36,15 @@ For the best result when changing Windows display scaling, close and reopen XERI
 
 ## Large and 4K Displays
 
-On large or 4K displays, XERIA uses a maximum visual size instead of expanding indefinitely. The application interface remains centered and readable while avoiding excessively large controls and spacing.
+XERIA 1.9.4 improves the way the application uses large and 4K displays.
+
+- When maximized on a large high-resolution monitor, XERIA expands its workspace to use the available screen area instead of keeping the interface inside a limited centered region.
+- PDF preview, batch operations, and other workspace panels can use the additional available screen space.
+- When restored from maximized mode on a large monitor, XERIA recalculates the workspace for the restored window size and avoids leaving the interface inside a small centered area with large unused margins.
+- Large restored windows can use the available window area while preserving uniform scaling and readable control sizes.
+- When a normal window is reduced below the preferred readable area, the existing responsive scaling, compact navigation, and scrolling behavior automatically resumes.
+
+The objective is to use additional workspace on large displays without simply stretching or excessively enlarging individual controls.
 
 ## Internal Scrolling
 
@@ -48,6 +56,7 @@ When a normal window is manually reduced below the preferred readable area, XERI
 
 The adaptive display system has been tested with the following configurations:
 
+- 3840 × 2160 (4K), including maximized and restored-window behavior
 - 1920 × 1080 at 100%, 125%, 150%, and 175%
 - 1366 × 768 at 100% and 125%
 - 1024 × 768 at 100%
