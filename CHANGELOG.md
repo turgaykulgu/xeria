@@ -4,6 +4,37 @@ This changelog summarizes notable public updates for XERIA.
 
 XERIA is a commercial Windows desktop application for secure PDF watermarking, personalized batch PDF generation, PDF encryption, trace-code watermarking, optional QR traceability, email delivery, cloud-connected workflows, and controlled document distribution.
 
+## XERIA 1.9.4 — 4K Display and Window Layout Update
+
+Released: August 12, 2026
+
+### Availability
+
+* Available through Microsoft Store.
+* Available as the standalone direct Windows installer from the official XERIA website.
+* Microsoft Store and direct installer distribution channels are aligned on version 1.9.4.
+
+Microsoft Store:
+
+https://apps.microsoft.com/detail/9P37ZD7SQNZP
+
+Direct installer:
+
+https://xeriasoft.com/downloads/XERIA-setup.exe
+
+### Improved
+
+* Improved full-screen and maximized-window behavior on 4K and other large displays.
+* Expanded the XERIA workspace to use the available screen area on high-resolution monitors.
+* Improved use of additional screen space by PDF preview, batch operations, and other workspace panels.
+* Improved layout recalculation when switching between maximized and restored window states.
+* Improved restored-window behavior on large monitors so the interface uses the available window area instead of remaining inside a capped central region.
+* Preserved adaptive scaling, compact navigation, minimum readable sizing, scrolling, mixed-DPI, and multi-monitor behavior introduced in XERIA 1.9.1.
+
+### Fixed
+
+* Fixed remaining empty-space issues that could appear after restoring XERIA from maximized mode on 4K and other large displays.
+
 ## XERIA 1.9.1 — Display Compatibility and Watermark Rendering Update
 
 Released: August 9, 2026
@@ -172,8 +203,8 @@ Released: June 24, 2026
 
 | Channel | Current Version | Status |
 |---|---:|---|
-| Microsoft Store | 1.9.1 | Recommended |
-| Direct Installer | 1.9.1 | Alternative official installer |
+| Microsoft Store | 1.9.4 | Recommended |
+| Direct Installer | 1.9.4 | Alternative official installer |
 
 ## Current Development Focus
 
@@ -187,11 +218,13 @@ Released: June 24, 2026
 
 ## Recent Highlights
 
+* Improved 4K and large-display maximized/restored window behavior in XERIA 1.9.4
+* Fixed remaining empty-space issues after leaving maximized mode on large displays
 * Added high-DPI, mixed-DPI, and multi-resolution display compatibility in XERIA 1.9.1
 * Added automatic compact navigation behavior for smaller displays
 * Improved small text and Trace Code watermark rendering while preserving non-selectable output
 * Streamlined Dropbox authorization
-* Aligned Microsoft Store and direct installer releases on XERIA 1.9.1
+* Aligned Microsoft Store and direct installer releases on XERIA 1.9.4
 * Improved online and offline license synchronization in XERIA 1.9.0
 * Added secure local storage of the latest verified license status
 * Fixed PDF preview navigation and zoom behavior
