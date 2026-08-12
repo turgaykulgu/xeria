@@ -26,7 +26,7 @@ https://apps.microsoft.com/detail/9P37ZD7SQNZP
 
 Current Microsoft Store version:
 
-**XERIA 1.9.1**
+**XERIA 1.9.4**
 
 ### Alternative: Direct Installer
 
@@ -34,30 +34,30 @@ https://xeriasoft.com/downloads/XERIA-setup.exe
 
 Current direct installer version:
 
-**XERIA 1.9.1**
+**XERIA 1.9.4**
 
 ## Current Distribution Channels
 
 | Channel | Version | Status |
 |---|---:|---|
-| Microsoft Store | 1.9.1 | Recommended |
-| Direct Installer | 1.9.1 | Alternative official installer |
+| Microsoft Store | 1.9.4 | Recommended |
+| Direct Installer | 1.9.4 | Alternative official installer |
 
 Microsoft Store and direct installer distribution channels are aligned on the same public version.
 
 ## Latest Update
 
-### XERIA 1.9.1 — Display Compatibility and Watermark Rendering Update
+### XERIA 1.9.4 — 4K Display and Window Layout Update
 
-Released: August 9, 2026
+Released: August 12, 2026
 
-XERIA 1.9.1 adds comprehensive display compatibility for high-DPI settings and different screen resolutions. The interface now adapts to the usable screen area, switches to compact navigation on smaller displays, fits secondary windows within the active monitor work area, and improves usability across mixed-DPI multi-monitor configurations.
+XERIA 1.9.4 improves display behavior on 4K and other large monitors, building on the adaptive scaling system introduced in XERIA 1.9.1.
 
-This release also improves rendering quality for small text and Trace Code watermarks, including very small size settings, while preserving their non-selectable and non-copyable behavior in generated PDFs.
+Maximized windows now make full use of the available workspace on large high-resolution displays. Restored windows on large monitors also use the available window area correctly instead of leaving the interface inside a limited centered region.
 
-Localized navigation tooltips and additional window sizing and layout improvements are included. The Dropbox connection flow has also been streamlined by removing the unnecessary pre-connection information dialog.
+This release also fixes remaining empty-space issues that could appear after leaving maximized mode and improves layout recalculation when switching between maximized, restored, and manually resized window states. Existing adaptive scaling, compact navigation, and low-resolution behavior are preserved.
 
-See the complete release history in [CHANGELOG.md](CHANGELOG.md) and the detailed [XERIA 1.9.1 release notes](docs/releases/RELEASE-NOTES-1.9.1.md).
+See the complete release history in [CHANGELOG.md](CHANGELOG.md) and the detailed [XERIA 1.9.4 release notes](docs/releases/RELEASE-NOTES-1.9.4.md).
 
 ## Key Features
 
@@ -130,6 +130,7 @@ Latest GitHub release: https://github.com/turgaykulgu/xeria/releases/latest
 * [Security Policy](SECURITY.md)
 * [Support](SUPPORT.md)
 * [Changelog](CHANGELOG.md)
+* [XERIA 1.9.4 Release Notes](docs/releases/RELEASE-NOTES-1.9.4.md)
 * [XERIA 1.9.1 Release Notes](docs/releases/RELEASE-NOTES-1.9.1.md)
 * [License Notice](LICENSE.md)
 
