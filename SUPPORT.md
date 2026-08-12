@@ -12,8 +12,8 @@ https://xeriasoft.com
 
 | Channel | Current Version | Status |
 |---|---:|---|
-| Microsoft Store | 1.9.1 | Recommended |
-| Direct Installer | 1.9.1 | Alternative official installer |
+| Microsoft Store | 1.9.4 | Recommended |
+| Direct Installer | 1.9.4 | Alternative official installer |
 
 Microsoft Store:
 
@@ -55,7 +55,7 @@ Do not download XERIA from unofficial mirrors, repackaged installers, third-part
 
 ## Display, DPI, and Window Layout Issues
 
-XERIA 1.9.1 adds adaptive display behavior for different resolutions, Windows scaling levels, and mixed-DPI monitor environments.
+XERIA 1.9.1 introduced adaptive display behavior for different resolutions, Windows scaling levels, and mixed-DPI monitor environments. XERIA 1.9.4 further improves maximized and restored-window behavior on 4K and other large displays.
 
 See [Display Requirements](DISPLAY-REQUIREMENTS.md).
 
@@ -66,11 +66,12 @@ When reporting a display issue, include:
 * Whether multiple monitors are connected
 * Scaling percentage for each monitor, if different
 * Whether XERIA was maximized or in a normal window
+* Whether the issue appears after switching between maximized and restored window states
 * A screenshot showing the affected area
 
 ## Watermark Rendering Issues
 
-XERIA 1.9.1 improves rendering quality for small text and Trace Code watermarks while preserving non-selectable and non-copyable output behavior.
+XERIA 1.9.1 improved rendering quality for small text and Trace Code watermarks while preserving non-selectable and non-copyable output behavior. This behavior is retained in XERIA 1.9.4.
 
 When reporting a watermark rendering issue, include:
 
@@ -95,7 +96,7 @@ Do not share license keys publicly in GitHub issues, discussions, screenshots, o
 
 ## PDF Preview Issues
 
-XERIA 1.9.0 introduced fixes for PDF preview page navigation and zoom behavior. XERIA 1.9.1 keeps these functions compatible with the new adaptive display system.
+XERIA 1.9.0 introduced fixes for PDF preview page navigation and zoom behavior. XERIA 1.9.1 kept preview behavior compatible with the adaptive display system, and XERIA 1.9.4 improves use of additional workspace on large displays.
 
 When reporting a PDF preview issue, include the affected function, steps to reproduce, and a screenshot or screen recording.
 
