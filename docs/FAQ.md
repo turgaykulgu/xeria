@@ -26,18 +26,28 @@ Do not download XERIA from unofficial mirrors or repackaged sources.
 
 | Channel | Current Version | Status |
 |---|---:|---|
-| Microsoft Store | 1.9.1 | Recommended |
-| Direct Installer | 1.9.1 | Alternative official installer |
+| Microsoft Store | 1.9.4 | Recommended |
+| Direct Installer | 1.9.4 | Alternative official installer |
 
-Microsoft Store and direct installer channels are aligned on XERIA 1.9.1.
+Microsoft Store and direct installer channels are aligned on XERIA 1.9.4.
+
+## What changed in XERIA 1.9.4?
+
+XERIA 1.9.4 focuses on 4K and large-display workspace behavior.
+
+Maximized windows now make better use of the available screen area on large high-resolution monitors. Restored windows on large displays also use the available window area correctly instead of leaving the interface inside a limited centered region.
+
+The release fixes remaining empty-space issues that could appear after leaving maximized mode and improves layout recalculation during maximized, restored, and manual resize transitions while preserving the responsive behavior introduced in XERIA 1.9.1.
+
+See [XERIA 1.9.4 Release Notes](releases/RELEASE-NOTES-1.9.4.md).
 
 ## What changed in XERIA 1.9.1?
 
-XERIA 1.9.1 focuses on display compatibility and watermark rendering quality.
+XERIA 1.9.1 introduced the adaptive display system and improved watermark rendering quality.
 
-It adds adaptive scaling for high-DPI and different screen resolutions, automatic compact navigation on smaller displays, improved mixed-DPI multi-monitor behavior, better secondary-window sizing, and localized navigation tooltips.
+It added adaptive scaling for high-DPI and different screen resolutions, automatic compact navigation on smaller displays, improved mixed-DPI multi-monitor behavior, better secondary-window sizing, and localized navigation tooltips.
 
-It also improves rendering quality for small text and Trace Code watermarks and streamlines the Dropbox connection flow.
+It also improved rendering quality for small text and Trace Code watermarks and streamlined the Dropbox connection flow.
 
 See [XERIA 1.9.1 Release Notes](releases/RELEASE-NOTES-1.9.1.md).
 
@@ -55,7 +65,13 @@ See [Display Requirements](../DISPLAY-REQUIREMENTS.md).
 
 Yes.
 
-XERIA 1.9.1 recalculates the interface for the active monitor, supports per-monitor DPI behavior, and preserves usability when moved between monitors with different Windows scaling values.
+XERIA recalculates the interface for the active monitor, supports per-monitor DPI behavior, and preserves usability when moved between monitors with different Windows scaling values. XERIA 1.9.4 further improves maximized and restored-window behavior on 4K and other large displays.
+
+## Does XERIA support 4K displays?
+
+Yes.
+
+XERIA 1.9.4 improves how the application uses 4K and other large high-resolution displays. Maximized windows can use the available workspace, and large restored windows recalculate their layout to avoid large unused margins around the interface.
 
 ## Why does the navigation menu become compact?
 
@@ -67,13 +83,13 @@ Localized tooltips identify the navigation icons while compact mode is active.
 
 No.
 
-XERIA 1.9.1 improves the rendering quality of small text and Trace Code watermarks while preserving their non-selectable and non-copyable behavior as normal PDF text.
+XERIA 1.9.1 improved the rendering quality of small text and Trace Code watermarks while preserving their non-selectable and non-copyable behavior as normal PDF text. This behavior is retained in XERIA 1.9.4.
 
 ## Can very small text or Trace Code watermarks be used?
 
 Yes.
 
-XERIA 1.9.1 improves sharpness and stability at very small watermark size settings. Practical visibility still depends on size, opacity, color, page content, and zoom level.
+XERIA improves sharpness and stability at very small watermark size settings. Practical visibility still depends on size, opacity, color, page content, and zoom level.
 
 ## Is the Microsoft Store version recommended?
 
@@ -137,7 +153,7 @@ The connection flow was simplified by removing the unnecessary informational dia
 
 ## Were the PDF preview controls improved?
 
-Yes. XERIA 1.9.0 fixed page navigation and zoom behavior, and XERIA 1.9.1 keeps preview behavior compatible with the new adaptive display system.
+Yes. XERIA 1.9.0 fixed page navigation and zoom behavior, XERIA 1.9.1 kept preview behavior compatible with the adaptive display system, and XERIA 1.9.4 improves use of additional workspace on large displays.
 
 ## Why might Microsoft Defender or SmartScreen show a warning?
 
