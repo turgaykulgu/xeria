@@ -8,7 +8,7 @@ https://apps.microsoft.com/detail/9P37ZD7SQNZP
 
 Current Microsoft Store version:
 
-**XERIA 1.9.1**
+**XERIA 1.9.4**
 
 Microsoft Store is recommended for most users because it provides a smoother Windows installation experience and Store-managed updates.
 
@@ -18,7 +18,7 @@ https://xeriasoft.com/downloads/XERIA-setup.exe
 
 Current direct installer version:
 
-**XERIA 1.9.1**
+**XERIA 1.9.4**
 
 The direct installer remains available as an official alternative installation method.
 
@@ -59,9 +59,9 @@ For detailed display behavior and tested configurations, see [Display Requiremen
 
 ## Display Scaling and Multi-Monitor Use
 
-XERIA 1.9.1 includes adaptive scaling for high-DPI settings and different screen resolutions.
+XERIA 1.9.1 introduced adaptive scaling for high-DPI settings and different screen resolutions. XERIA 1.9.4 further improves workspace behavior on 4K and other large displays.
 
-The application can switch to compact navigation on smaller displays, fit large secondary windows within the usable work area, and recalculate its layout when moved between monitors with different DPI settings.
+The application can switch to compact navigation on smaller displays, fit large secondary windows within the usable work area, recalculate its layout when moved between monitors with different DPI settings, and make better use of available workspace when maximized or restored on large high-resolution monitors.
 
 For the best result after changing Windows display scaling, close and reopen XERIA after applying the new Windows setting.
 
@@ -118,13 +118,13 @@ For suspected false positives, contact [support@xeriasoft.com](mailto:support@xe
 
 Microsoft Store installations use Store-managed updates.
 
-Current version: **XERIA 1.9.1**
+Current version: **XERIA 1.9.4**
 
 ### Direct Installer Version
 
 The direct installer can be updated through XERIA's update workflow or downloaded again from the official website.
 
-Current version: **XERIA 1.9.1**
+Current version: **XERIA 1.9.4**
 
 Do not install updates from unofficial sources.
 
