@@ -4,6 +4,26 @@ This changelog summarizes notable public updates for XERIA.
 
 XERIA is a commercial Windows desktop application for secure PDF watermarking, personalized batch PDF generation, PDF encryption, trace-code watermarking, optional QR traceability, email delivery, cloud-connected workflows, and controlled document distribution.
 
+## XERIA 2.0.0 — Multilingual OCR and PDF Editor Improvements
+
+Released: October 16, 2026 (direct installer). Microsoft Store update submitted and awaiting certification.
+
+### Added
+* OCR for scanned and image-based PDF documents, with Word, Excel, and searchable PDF exports.
+* OCR document-language support for English, Turkish, German, French, Spanish, Italian, Russian, Japanese, and Simplified Chinese.
+* OCR page previews, progress feedback, cancellation, and remembering the selected document language.
+
+### Improved
+* Improved table recognition and editable Word/Excel table export where possible.
+* PDF Editor List View supports expanding documents and drag-and-drop reordering of documents and individual pages, synchronized with Thumbnail View.
+* Improved page information, list column alignment, localization, and theme consistency across the interface.
+
+### Availability
+* Direct installer version 2.0.0: https://xeriasoft.com/downloads/XERIA-setup.exe
+* Microsoft Store: https://apps.microsoft.com/detail/9P37ZD7SQNZP (2.0.0 pending certification).
+
+See [detailed bilingual release notes](docs/releases/RELEASE-NOTES-2.0.0.md).
+
 ## XERIA 1.9.4 — 4K Display and Window Layout Update
 
 Released: August 12, 2026
@@ -203,8 +223,8 @@ Released: June 24, 2026
 
 | Channel | Current Version | Status |
 |---|---:|---|
-| Microsoft Store | 1.9.4 | Recommended |
-| Direct Installer | 1.9.4 | Alternative official installer |
+| Microsoft Store | 1.9.4 (2.0.0 pending certification) | Store update submitted |
+| Direct Installer | 2.0.0 | Available from official website |
 
 ## Current Development Focus
 
@@ -217,6 +237,9 @@ Released: June 24, 2026
 * Public release communication improvements
 
 ## Recent Highlights
+
+* Introduced multilingual OCR and Word, Excel, and searchable PDF export in XERIA 2.0.0
+* Enhanced PDF Editor List View with expandable documents and drag-and-drop page reordering
 
 * Improved 4K and large-display maximized/restored window behavior in XERIA 1.9.4
 * Fixed remaining empty-space issues after leaving maximized mode on large displays
