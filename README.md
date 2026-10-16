@@ -26,7 +26,7 @@ https://apps.microsoft.com/detail/9P37ZD7SQNZP
 
 Current Microsoft Store version:
 
-**XERIA 1.9.4** (2.0.0 submitted, awaiting Store certification)
+**XERIA 2.0.0**
 
 ### Alternative: Direct Installer
 
@@ -40,16 +40,16 @@ Current direct installer version:
 
 | Channel | Version | Status |
 |---|---:|---|
-| Microsoft Store | 1.9.4 (2.0.0 pending certification) | Store update submitted |
+| Microsoft Store | 2.0.0 | Available |
 | Direct Installer | 2.0.0 | Available now from official website |
 
-The direct installer is now at version 2.0.0. The Microsoft Store update has been submitted for certification; Store availability may lag until approval.
+Microsoft Store and direct installer distribution channels are both on version 2.0.0.
 
 ## Latest Update
 
 ### XERIA 2.0.0 — Multilingual OCR and PDF Editor Improvements
 
-Released: October 16, 2026 (direct installer). Microsoft Store update awaiting certification.
+Released: October 16, 2026 (Microsoft Store and direct installer).
 
 XERIA 2.0.0 adds multilingual OCR to extract text from scanned and image-based PDF documents and export to Word, Excel, and searchable PDF formats. OCR supports nine document languages, improved table detection, page previews, progress tracking, cancellation, and remembered language selection.
 
