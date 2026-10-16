@@ -1,6 +1,6 @@
 # XERIA 2.0.0 Release Notes
 
-Released: October 16, 2026 (direct installer). Microsoft Store submission is pending certification.
+Released: October 16, 2026 (Microsoft Store and direct installer).
 
 ## English
 
@@ -45,6 +45,6 @@ Released: October 16, 2026 (direct installer). Microsoft Store submission is pen
 ## Availability / İndirme
 
 - Direct installer (2.0.0): https://xeriasoft.com/downloads/XERIA-setup.exe
-- Microsoft Store: https://apps.microsoft.com/detail/9P37ZD7SQNZP — version 2.0.0 submitted; awaiting certification/publication.
+- Microsoft Store: https://apps.microsoft.com/detail/9P37ZD7SQNZP — version 2.0.0 available.
 
 XERIA is commercial closed-source software. This repository provides product information and documentation, not the application source code.
