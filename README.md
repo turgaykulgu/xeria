@@ -26,7 +26,7 @@ https://apps.microsoft.com/detail/9P37ZD7SQNZP
 
 Current Microsoft Store version:
 
-**XERIA 1.9.4**
+**XERIA 1.9.4** (2.0.0 submitted, awaiting Store certification)
 
 ### Alternative: Direct Installer
 
@@ -34,32 +34,34 @@ https://xeriasoft.com/downloads/XERIA-setup.exe
 
 Current direct installer version:
 
-**XERIA 1.9.4**
+**XERIA 2.0.0**
 
 ## Current Distribution Channels
 
 | Channel | Version | Status |
 |---|---:|---|
-| Microsoft Store | 1.9.4 | Recommended |
-| Direct Installer | 1.9.4 | Alternative official installer |
+| Microsoft Store | 1.9.4 (2.0.0 pending certification) | Store update submitted |
+| Direct Installer | 2.0.0 | Available now from official website |
 
-Microsoft Store and direct installer distribution channels are aligned on the same public version.
+The direct installer is now at version 2.0.0. The Microsoft Store update has been submitted for certification; Store availability may lag until approval.
 
 ## Latest Update
 
-### XERIA 1.9.4 — 4K Display and Window Layout Update
+### XERIA 2.0.0 — Multilingual OCR and PDF Editor Improvements
 
-Released: August 12, 2026
+Released: October 16, 2026 (direct installer). Microsoft Store update awaiting certification.
 
-XERIA 1.9.4 improves display behavior on 4K and other large monitors, building on the adaptive scaling system introduced in XERIA 1.9.1.
+XERIA 2.0.0 adds multilingual OCR to extract text from scanned and image-based PDF documents and export to Word, Excel, and searchable PDF formats. OCR supports nine document languages, improved table detection, page previews, progress tracking, cancellation, and remembered language selection.
 
-Maximized windows now make full use of the available workspace on large high-resolution displays. Restored windows on large monitors also use the available window area correctly instead of leaving the interface inside a limited centered region.
+The PDF Editor now supports expanding multi-page documents and reordering documents or individual pages with drag-and-drop directly in List View, synchronized with Thumbnail View. This release also refines localization and interface consistency.
 
-This release also fixes remaining empty-space issues that could appear after leaving maximized mode and improves layout recalculation when switching between maximized, restored, and manually resized window states. Existing adaptive scaling, compact navigation, and low-resolution behavior are preserved.
-
-See the complete release history in [CHANGELOG.md](CHANGELOG.md) and the detailed [XERIA 1.9.4 release notes](docs/releases/RELEASE-NOTES-1.9.4.md).
+See [CHANGELOG.md](CHANGELOG.md) and the [XERIA 2.0.0 release notes](docs/releases/RELEASE-NOTES-2.0.0.md).
 
 ## Key Features
+
+* Multilingual OCR for scanned PDFs with Word, Excel, and searchable PDF export
+* OCR support for nine document languages, with table detection and editable table export where possible
+* PDF Editor List View with expandable documents and drag-and-drop page reordering
 
 * Secure PDF watermarking
 * Personalized batch PDF generation
@@ -120,7 +122,7 @@ Video tutorials: https://xeriasoft.com/video-tutorials.html
 
 YouTube: https://www.youtube.com/@xeriasoft
 
-Latest GitHub release: https://github.com/turgaykulgu/xeria/releases/latest
+GitHub releases: https://github.com/turgaykulgu/xeria/releases
 
 ## Documentation
 
@@ -130,6 +132,7 @@ Latest GitHub release: https://github.com/turgaykulgu/xeria/releases/latest
 * [Security Policy](SECURITY.md)
 * [Support](SUPPORT.md)
 * [Changelog](CHANGELOG.md)
+* [XERIA 2.0.0 Release Notes](docs/releases/RELEASE-NOTES-2.0.0.md)
 * [XERIA 1.9.4 Release Notes](docs/releases/RELEASE-NOTES-1.9.4.md)
 * [XERIA 1.9.1 Release Notes](docs/releases/RELEASE-NOTES-1.9.1.md)
 * [License Notice](LICENSE.md)
