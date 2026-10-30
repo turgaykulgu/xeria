@@ -100,6 +100,12 @@ See [CHANGELOG.md](CHANGELOG.md) and the [XERIA 2.0.0 release notes](docs/releas
   <img src="docs/xeria-email-delivery.png" alt="XERIA Email Delivery and Mail Log" width="900">
 </p>
 
+### Multilingual OCR
+
+<p align="center">
+  <img src="docs/Xeria-OCR.png" alt="XERIA OCR - Document Preview and Text Recognition" width="900">
+</p>
+
 ## Typical Use Cases
 
 XERIA can be used for instructor guides and training documents, internal company manuals, confidential reports, recipient-specific PDF copies, controlled document distribution, traceable PDF sharing, secure document delivery by email, source identification for redistributed PDF copies, and batch generation of personalized protected documents.
