@@ -26,10 +26,38 @@ Do not download XERIA from unofficial mirrors or repackaged sources.
 
 | Channel | Current Version | Status |
 |---|---:|---|
-| Microsoft Store | 1.9.4 | Recommended |
-| Direct Installer | 1.9.4 | Alternative official installer |
+| Microsoft Store | 2.0.0 | Recommended |
+| Direct Installer | 2.0.0 | Alternative official installer |
 
-Microsoft Store and direct installer channels are aligned on XERIA 1.9.4.
+Microsoft Store and direct installer channels are aligned on XERIA 2.0.0.
+
+## What changed in XERIA 2.0.0?
+
+XERIA 2.0.0 improves document processing and the PDF Editor while maintaining its focus on secure document distribution, personalized PDF generation, and traceability.
+
+### PDF Editor Improvements
+
+* Expand multi-page documents in List View.
+* Reorder documents and individual pages with drag-and-drop.
+* Keep List View and Thumbnail View synchronized.
+* Improved page information and list organization.
+
+### Multilingual OCR Support
+
+* Recognize text in scanned and image-based PDFs.
+* Export recognized content to Word, Excel, or searchable PDF.
+* OCR document languages: English, Turkish, German, French, Spanish, Italian, Russian, Japanese, and Simplified Chinese.
+* Improved table detection and document structure analysis, with editable Word/Excel table export where possible.
+* Page previews, progress feedback, cancellation, and remembered OCR language selection.
+
+### Interface Improvements
+
+* Refined localization across nine interface languages.
+* Improved theme and interface consistency.
+
+OCR processing in trial mode is limited to 10 pages per operation.
+
+See [XERIA 2.0.0 Release Notes](releases/RELEASE-NOTES-2.0.0.md).
 
 ## What changed in XERIA 1.9.4?
 
@@ -105,13 +133,15 @@ The direct installer is digitally signed.
 
 ## Is XERIA free?
 
-XERIA includes an unlimited free trial.
-
-Email sending is disabled in trial mode, generated PDFs include a visible trial banner, and licensed functionality requires a valid license.
+XERIA offers a free trial with feature-specific limitations. Generated PDFs include a visible trial watermark, email sending is disabled, and a valid license is required to remove trial watermarks and enable licensed functionality. OCR processing is limited to 10 pages per operation, not a cumulative usage allowance.
 
 Pricing and purchase information:
 
 https://xeriasoft.com/pricing.html
+
+## Which languages does XERIA OCR support?
+
+XERIA 2.0.0 supports OCR document recognition in English, Turkish, German, French, Spanish, Italian, Russian, Japanese, and Simplified Chinese. OCR document languages and application interface languages are separate settings. Recognition accuracy depends on source document quality, layout, and content.
 
 ## Does XERIA work offline after activation?
 
