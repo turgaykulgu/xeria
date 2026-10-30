@@ -8,7 +8,7 @@ https://apps.microsoft.com/detail/9P37ZD7SQNZP
 
 Current Microsoft Store version:
 
-**XERIA 1.9.4**
+**XERIA 2.0.0**
 
 Microsoft Store is recommended for most users because it provides a smoother Windows installation experience and Store-managed updates.
 
@@ -18,7 +18,7 @@ https://xeriasoft.com/downloads/XERIA-setup.exe
 
 Current direct installer version:
 
-**XERIA 1.9.4**
+**XERIA 2.0.0**
 
 The direct installer remains available as an official alternative installation method.
 
@@ -77,17 +77,16 @@ Verify that:
 
 ## Trial and License Activation
 
-XERIA includes an unlimited free trial.
+XERIA offers a free trial with feature-specific limitations:
 
-Trial limitations include:
+* Generated PDF documents include a visible trial watermark.
+* Email sending is disabled.
+* A valid license is required to remove trial watermarks and enable licensed functionality.
+* OCR processing is limited to 10 pages per operation, not a cumulative usage allowance.
 
-* Email sending is disabled
-* Generated PDFs include a visible trial banner
-* A valid license is required to remove trial banners and enable licensed functionality
+Initial license activation requires an internet connection.
 
-License activation requires an internet connection.
-
-Since XERIA 1.9.0, license synchronization supports license changes more reliably and the latest verified license status is stored securely on the local device for offline use.
+Since XERIA 1.9.0, the latest verified license status is stored securely on the local device to support offline use.
 
 An internet connection may still be required for periodic validation, license changes, updates, and online services.
 
@@ -118,13 +117,13 @@ For suspected false positives, contact [support@xeriasoft.com](mailto:support@xe
 
 Microsoft Store installations use Store-managed updates.
 
-Current version: **XERIA 1.9.4**
+Current version: **XERIA 2.0.0**
 
 ### Direct Installer Version
 
 The direct installer can be updated through XERIA's update workflow or downloaded again from the official website.
 
-Current version: **XERIA 1.9.4**
+Current version: **XERIA 2.0.0**
 
 Do not install updates from unofficial sources.
 
