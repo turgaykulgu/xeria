@@ -12,8 +12,8 @@ https://xeriasoft.com
 
 | Channel | Current Version | Status |
 |---|---:|---|
-| Microsoft Store | 1.9.4 | Recommended |
-| Direct Installer | 1.9.4 | Alternative official installer |
+| Microsoft Store | 2.0.0 | Recommended |
+| Direct Installer | 2.0.0 | Alternative official installer |
 
 Microsoft Store:
 
