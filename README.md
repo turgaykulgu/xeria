@@ -59,24 +59,20 @@ See [CHANGELOG.md](CHANGELOG.md) and the [XERIA 2.0.0 release notes](docs/releas
 
 ## Key Features
 
-* Multilingual OCR for scanned PDFs with Word, Excel, and searchable PDF export
-* OCR support for nine document languages, with table detection and editable table export where possible
-* PDF Editor List View with expandable documents and drag-and-drop page reordering
-
 * Secure PDF watermarking
 * Personalized batch PDF generation
-* Recipient-based trace-code watermarking
+* Recipient-based Trace Code watermarking
 * Optional QR-based document traceability
-* PDF encryption with open and owner passwords
-* Controlled printing, copying, and modification permissions
-* Single PDF, folder-based, and personalized batch workflows
-* Batch email sending with personalized attachments
+* PDF encryption and permission controls
+* Controlled document distribution workflows
+* Batch email delivery with personalized attachments
+* Mail Log and traceability tools
 * Dropbox, OneDrive, and Google Drive connected workflows
-* Mail log and delivery tracking support
-* Adaptive display scaling and per-monitor DPI support
-* Light and dark theme support
+* PDF Editor with drag-and-drop page management
+* Multilingual OCR with Word, Excel, and searchable PDF export
 * Multi-language user interface
-* Windows desktop application
+* Light and dark themes
+* Adaptive display scaling and multi-monitor support
 
 ## Screenshots
 
@@ -139,7 +135,14 @@ GitHub releases: https://github.com/turgaykulgu/xeria/releases
 
 ## Free Trial
 
-XERIA includes an unlimited free trial. Email sending is disabled in trial mode, generated PDF files include a visible trial banner, and a valid license is required to remove trial banners and enable licensed functionality.
+XERIA offers a free trial to explore secure document distribution, PDF watermarking, and personalized document generation, with feature-specific limitations.
+
+* Generated PDF documents include a visible trial watermark.
+* Email sending is disabled in trial mode.
+* A valid license is required to remove trial watermarks and enable licensed functionality.
+* OCR processing is limited to 10 pages per operation, not a cumulative usage allowance.
+
+For licensing and pricing information, see the [official pricing page](https://xeriasoft.com/pricing.html).
 
 ## License Validation and Offline Use
 
