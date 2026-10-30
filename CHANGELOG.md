@@ -18,6 +18,9 @@ Released: October 16, 2026 (Microsoft Store and direct installer).
 * PDF Editor List View supports expanding documents and drag-and-drop reordering of documents and individual pages, synchronized with Thumbnail View.
 * Improved page information, list column alignment, localization, and theme consistency across the interface.
 
+### Trial Limitations
+* OCR processing in trial mode is limited to 10 pages per operation, not a cumulative usage allowance.
+
 ### Availability
 * Direct installer version 2.0.0: https://xeriasoft.com/downloads/XERIA-setup.exe
 * Microsoft Store: https://apps.microsoft.com/detail/9P37ZD7SQNZP. Version 2.0.0 available.
