@@ -12,6 +12,9 @@ Released: October 16, 2026 (Microsoft Store and direct installer).
 - Added page previews, progress indication, and cancellation for ongoing OCR operations.
 - Remembers the last selected OCR document language; English is the initial default.
 
+### Trial Limitations
+- OCR processing in trial mode is limited to 10 pages per operation, not a cumulative usage allowance.
+
 ### Improved: PDF Editor
 - Reorder documents and individual pages by dragging and dropping items in List View.
 - Expand multi-page documents to inspect and rearrange their pages directly.
@@ -31,6 +34,9 @@ Released: October 16, 2026 (Microsoft Store and direct installer).
 - Tablo algılama ve belge yapısı analizi geliştirildi; mümkün olduğunda Word ve Excel'e düzenlenebilir tablo aktarılır.
 - Sayfa önizlemeleri, ilerleme bilgisi ve devam eden OCR işlemini iptal etme eklendi.
 - Son seçilen OCR belge dili hatırlanır; ilk kullanımda varsayılan dil İngilizcedir.
+
+### Deneme Sürümü Sınırlamaları
+- Deneme sürümünde OCR işlemleri, işlem başına en fazla 10 sayfa ile sınırlandırılmıştır. Bu sınır toplam kullanım kotası değildir.
 
 ### PDF Düzenleyici iyileştirmeleri
 - Liste Görünümü'nde belge ve tekil sayfalar sürükle-bırak ile yeniden sıralanabilir.
