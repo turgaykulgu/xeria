@@ -26,7 +26,7 @@ https://apps.microsoft.com/detail/9P37ZD7SQNZP
 
 Current Microsoft Store version:
 
-**XERIA 2.0.0**
+**XERIA 2.0.0** (2.0.1 in certification)
 
 ### Alternative: Direct Installer
 
@@ -34,20 +34,26 @@ https://xeriasoft.com/downloads/XERIA-setup.exe
 
 Current direct installer version:
 
-**XERIA 2.0.0**
+**XERIA 2.0.1**
 
 ## Current Distribution Channels
 
 | Channel | Version | Status |
 |---|---:|---|
-| Microsoft Store | 2.0.0 | Available |
-| Direct Installer | 2.0.0 | Available now from official website |
+| Microsoft Store | 2.0.0 | 2.0.1 submitted for certification on November 9, 2026 |
+| Direct Installer | 2.0.1 | Available now from official website |
 
-Microsoft Store and direct installer distribution channels are both on version 2.0.0.
+The direct installer is available as version 2.0.1. The Microsoft Store listing remains at 2.0.0 until the submitted 2.0.1 update is approved and published.
 
 ## Latest Update
 
-### XERIA 2.0.0 — Multilingual OCR and PDF Editor Improvements
+### XERIA 2.0.1 — OCR Shortcut and Usability Improvements
+
+Direct installer released: November 9, 2026. Microsoft Store submission for 2.0.1 is in certification.
+
+Added an OCR shortcut to the home screen, refined PDF Editor and interface usability, and applied minor bug fixes. See [XERIA 2.0.1 release notes](docs/releases/RELEASE-NOTES-2.0.1.md).
+
+### Previous update: XERIA 2.0.0 — Multilingual OCR and PDF Editor Improvements
 
 Released: October 16, 2026 (Microsoft Store and direct installer).
 
@@ -134,6 +140,7 @@ GitHub releases: https://github.com/turgaykulgu/xeria/releases
 * [Security Policy](SECURITY.md)
 * [Support](SUPPORT.md)
 * [Changelog](CHANGELOG.md)
+* [XERIA 2.0.1 Release Notes](docs/releases/RELEASE-NOTES-2.0.1.md)
 * [XERIA 2.0.0 Release Notes](docs/releases/RELEASE-NOTES-2.0.0.md)
 * [XERIA 1.9.4 Release Notes](docs/releases/RELEASE-NOTES-1.9.4.md)
 * [XERIA 1.9.1 Release Notes](docs/releases/RELEASE-NOTES-1.9.1.md)
@@ -145,6 +152,7 @@ XERIA offers a free trial to explore secure document distribution, PDF watermark
 
 * Generated PDF documents include a visible trial watermark.
 * Email sending is disabled in trial mode.
+* Trial-mode PDF generation is limited to 3 recipients per batch.
 * A valid license is required to remove trial watermarks and enable licensed functionality.
 * OCR processing is limited to 10 pages per operation, not a cumulative usage allowance.
 
