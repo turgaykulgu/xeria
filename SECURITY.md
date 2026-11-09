@@ -10,7 +10,7 @@ https://apps.microsoft.com/detail/9P37ZD7SQNZP
 
 Current Microsoft Store version:
 
-**XERIA 2.0.0**
+**XERIA 2.0.0** (2.0.1 in certification)
 
 ### Alternative: Direct Installer
 
@@ -18,7 +18,7 @@ https://xeriasoft.com/downloads/XERIA-setup.exe
 
 Current direct installer version:
 
-**XERIA 2.0.0**
+**XERIA 2.0.1**
 
 The direct installer remains an official alternative installation method.
 
@@ -97,10 +97,10 @@ Please include the exact warning, installer file name, download URL, security pr
 
 | Channel | Current Version | Status |
 |---|---:|---|
-| Microsoft Store | 2.0.0 | Recommended |
-| Direct Installer | 2.0.0 | Alternative official installer |
+| Microsoft Store | 2.0.0 | Recommended; 2.0.1 in certification |
+| Direct Installer | 2.0.1 | Alternative official installer, available now |
 
-Microsoft Store and direct installer distribution channels are aligned on XERIA 2.0.0.
+Direct installer 2.0.1 was released on November 9, 2026. Microsoft Store 2.0.1 is pending certification.
 
 ## Important Notice
 
