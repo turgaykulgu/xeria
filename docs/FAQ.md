@@ -26,10 +26,10 @@ Do not download XERIA from unofficial mirrors or repackaged sources.
 
 | Channel | Current Version | Status |
 |---|---:|---|
-| Microsoft Store | 2.0.0 | Recommended; 2.0.1 in certification |
+| Microsoft Store | 2.0.1 | Recommended; submission processed, rollout may take time |
 | Direct Installer | 2.0.1 | Alternative official installer, available now |
 
-Direct installer 2.0.1 is available; Microsoft Store 2.0.1 was submitted for certification on November 9, 2026.
+Direct installer 2.0.1 is available. Microsoft Store 2.0.1 submission was successfully processed; availability may take time to propagate.
 
 ## What changed in XERIA 2.0.1?
 
