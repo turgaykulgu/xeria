@@ -4,6 +4,23 @@ This changelog summarizes notable public updates for XERIA.
 
 XERIA is a commercial Windows desktop application for secure PDF watermarking, personalized batch PDF generation, PDF encryption, trace-code watermarking, optional QR traceability, email delivery, cloud-connected workflows, and controlled document distribution.
 
+## XERIA 2.0.1 — OCR Shortcut and Usability Improvements
+
+Direct installer released: November 9, 2026. Microsoft Store 2.0.1 submitted for certification on November 9, 2026 (2.0.0 remains available until publication).
+
+### Added
+* Home-screen OCR shortcut for quicker access to OCR features.
+
+### Improved
+* PDF Editor and general interface usability improvements.
+* Minor bug fixes and reliability refinements.
+
+### Availability
+* Direct installer 2.0.1: https://xeriasoft.com/downloads/XERIA-setup.exe
+* Microsoft Store 2.0.1: certification pending; current published version 2.0.0.
+
+See [detailed bilingual release notes](docs/releases/RELEASE-NOTES-2.0.1.md).
+
 ## XERIA 2.0.0 — Multilingual OCR and PDF Editor Improvements
 
 Released: October 16, 2026 (Microsoft Store and direct installer).
@@ -226,8 +243,8 @@ Released: June 24, 2026
 
 | Channel | Current Version | Status |
 |---|---:|---|
-| Microsoft Store | 2.0.0 | Available |
-| Direct Installer | 2.0.0 | Available from official website |
+| Microsoft Store | 2.0.0 | 2.0.1 in certification |
+| Direct Installer | 2.0.1 | Available from official website |
 
 ## Current Development Focus
 
@@ -241,6 +258,7 @@ Released: June 24, 2026
 
 ## Recent Highlights
 
+* Released direct installer 2.0.1 with a home-screen OCR shortcut and usability refinements; submitted Microsoft Store 2.0.1 for certification
 * Introduced multilingual OCR and Word, Excel, and searchable PDF export in XERIA 2.0.0
 * Enhanced PDF Editor List View with expandable documents and drag-and-drop page reordering
 
