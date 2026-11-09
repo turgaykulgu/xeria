@@ -8,7 +8,7 @@ https://apps.microsoft.com/detail/9P37ZD7SQNZP
 
 Current Microsoft Store version:
 
-**XERIA 2.0.0**
+**XERIA 2.0.0** (2.0.1 in certification)
 
 Microsoft Store is recommended for most users because it provides a smoother Windows installation experience and Store-managed updates.
 
@@ -18,11 +18,11 @@ https://xeriasoft.com/downloads/XERIA-setup.exe
 
 Current direct installer version:
 
-**XERIA 2.0.0**
+**XERIA 2.0.1**
 
 The direct installer remains available as an official alternative installation method.
 
-Microsoft Store and direct installer distribution channels are aligned on the same public version.
+Direct installer 2.0.1 is available now. Microsoft Store 2.0.1 is in certification, so Store users continue to receive version 2.0.0 until Microsoft publishes the update.
 
 Do not download XERIA from unofficial mirrors, third-party file-sharing websites, repackaged installers, or unknown download sources.
 
@@ -81,6 +81,7 @@ XERIA offers a free trial with feature-specific limitations:
 
 * Generated PDF documents include a visible trial watermark.
 * Email sending is disabled.
+* Trial-mode PDF generation is limited to 3 recipients per batch.
 * A valid license is required to remove trial watermarks and enable licensed functionality.
 * OCR processing is limited to 10 pages per operation, not a cumulative usage allowance.
 
@@ -117,13 +118,13 @@ For suspected false positives, contact [support@xeriasoft.com](mailto:support@xe
 
 Microsoft Store installations use Store-managed updates.
 
-Current version: **XERIA 2.0.0**
+Current version: **XERIA 2.0.0** (2.0.1 in certification)
 
 ### Direct Installer Version
 
 The direct installer can be updated through XERIA's update workflow or downloaded again from the official website.
 
-Current version: **XERIA 2.0.0**
+Current version: **XERIA 2.0.1**
 
 Do not install updates from unofficial sources.
 
