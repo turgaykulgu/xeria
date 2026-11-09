@@ -100,6 +100,12 @@ See [CHANGELOG.md](CHANGELOG.md) and the [XERIA 2.0.0 release notes](docs/releas
   <img src="docs/xeria-personalized-batch.png" alt="XERIA Personalized Batch PDF Generation" width="900">
 </p>
 
+### TRACE Analyzer — Document Recipient Identification
+
+<p align="center">
+  <img src="docs/xeria-trace-analyzer.png" alt="XERIA TRACE Analyzer - Identify document recipients using unique trace codes" width="900">
+</p>
+
 ### Email Delivery and Mail Log
 
 <p align="center">
