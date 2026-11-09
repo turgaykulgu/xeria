@@ -26,7 +26,7 @@ https://apps.microsoft.com/detail/9P37ZD7SQNZP
 
 Current Microsoft Store version:
 
-**XERIA 2.0.0** (2.0.1 in certification)
+**XERIA 2.0.1**
 
 ### Alternative: Direct Installer
 
@@ -40,16 +40,16 @@ Current direct installer version:
 
 | Channel | Version | Status |
 |---|---:|---|
-| Microsoft Store | 2.0.0 | 2.0.1 submitted for certification on November 9, 2026 |
+| Microsoft Store | 2.0.1 | Submission successfully processed; Store availability may take time to propagate |
 | Direct Installer | 2.0.1 | Available now from official website |
 
-The direct installer is available as version 2.0.1. The Microsoft Store listing remains at 2.0.0 until the submitted 2.0.1 update is approved and published.
+Both distribution channels have completed their 2.0.1 release process. Microsoft Store availability may take time to propagate across regions and devices.
 
 ## Latest Update
 
 ### XERIA 2.0.1 — OCR Shortcut and Usability Improvements
 
-Direct installer released: November 9, 2026. Microsoft Store submission for 2.0.1 is in certification.
+Direct installer released: November 9, 2026. Microsoft Store 2.0.1 submission was successfully processed (notification received by November 10, 2026).
 
 Added an OCR shortcut to the home screen, refined PDF Editor and interface usability, and applied minor bug fixes. See [XERIA 2.0.1 release notes](docs/releases/RELEASE-NOTES-2.0.1.md).
 
