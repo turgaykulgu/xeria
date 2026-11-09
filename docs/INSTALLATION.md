@@ -8,7 +8,7 @@ https://apps.microsoft.com/detail/9P37ZD7SQNZP
 
 Current Microsoft Store version:
 
-**XERIA 2.0.0** (2.0.1 in certification)
+**XERIA 2.0.1**
 
 Microsoft Store is recommended for most users because it provides a smoother Windows installation experience and Store-managed updates.
 
@@ -22,7 +22,7 @@ Current direct installer version:
 
 The direct installer remains available as an official alternative installation method.
 
-Direct installer 2.0.1 is available now. Microsoft Store 2.0.1 is in certification, so Store users continue to receive version 2.0.0 until Microsoft publishes the update.
+Direct installer 2.0.1 is available now. Microsoft Store 2.0.1 submission has been processed successfully; it may take time for the update to become visible on all devices and in all regions.
 
 Do not download XERIA from unofficial mirrors, third-party file-sharing websites, repackaged installers, or unknown download sources.
 
@@ -118,7 +118,7 @@ For suspected false positives, contact [support@xeriasoft.com](mailto:support@xe
 
 Microsoft Store installations use Store-managed updates.
 
-Current version: **XERIA 2.0.0** (2.0.1 in certification)
+Current version: **XERIA 2.0.1** (Store rollout may take time to propagate)
 
 ### Direct Installer Version
 
