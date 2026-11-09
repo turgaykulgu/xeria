@@ -26,10 +26,16 @@ Do not download XERIA from unofficial mirrors or repackaged sources.
 
 | Channel | Current Version | Status |
 |---|---:|---|
-| Microsoft Store | 2.0.0 | Recommended |
-| Direct Installer | 2.0.0 | Alternative official installer |
+| Microsoft Store | 2.0.0 | Recommended; 2.0.1 in certification |
+| Direct Installer | 2.0.1 | Alternative official installer, available now |
 
-Microsoft Store and direct installer channels are aligned on XERIA 2.0.0.
+Direct installer 2.0.1 is available; Microsoft Store 2.0.1 was submitted for certification on November 9, 2026.
+
+## What changed in XERIA 2.0.1?
+
+XERIA 2.0.1 adds an OCR shortcut to the home screen, improves PDF Editor and general interface usability, and includes minor bug fixes. Multilingual OCR and drag-and-drop PDF editing remain available from XERIA 2.0.0.
+
+See [XERIA 2.0.1 Release Notes](releases/RELEASE-NOTES-2.0.1.md).
 
 ## What changed in XERIA 2.0.0?
 
@@ -133,7 +139,7 @@ The direct installer is digitally signed.
 
 ## Is XERIA free?
 
-XERIA offers a free trial with feature-specific limitations. Generated PDFs include a visible trial watermark, email sending is disabled, and a valid license is required to remove trial watermarks and enable licensed functionality. OCR processing is limited to 10 pages per operation, not a cumulative usage allowance.
+XERIA offers a free trial with feature-specific limitations. Generated PDFs include a visible trial watermark, PDF generation is limited to 3 recipients per batch, email sending is disabled, and a valid license is required to remove trial watermarks and enable licensed functionality. OCR processing is limited to 10 pages per operation, not a cumulative usage allowance.
 
 Pricing and purchase information:
 
